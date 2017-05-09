@@ -1,0 +1,1 @@
+input_pose_0003 was chosen by manual inspection from the output of tss_docking run and used as "input_pose.pdb" here 
