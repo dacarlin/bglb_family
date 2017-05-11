@@ -11,16 +11,16 @@ INPUT_POSE = 'input_pose.pdb'
 PARAMS = 'pnpg.params'
 CST_FILE = 'pnpg.cst'
 
+# initialize PyRosetta
 pyrosetta.init('-beta -extra_res_fa pnpg.params -run:preserve_header')
 
 # create a pose
 p = pyrosetta.pose_from_file(INPUT_POSE)
-orig = p.sequence()
 
 # calculate the mutant we are making if there is an index set
 if INDEX:
     a = range(1, p.total_residue()+1)
-    b = map(str.upper,IUPACData.protein_letters_3to1.keys())
+    b = sorted(map(str.upper,IUPACData.protein_letters_3to1.keys()))
     TARGET, NEW_RES = list(product(a,b))[INDEX]
     print('target:', TARGET, 'new_res:', NEW_RES)
 else:
@@ -28,7 +28,6 @@ else:
     NEW_RES = 'ILE'
     # this is a synonymous mutation
     # I think
-
 
 # get a scorefxn
 sfxn = pyrosetta.create_score_function('beta_cst')
