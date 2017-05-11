@@ -22,10 +22,12 @@ if INDEX:
     a = range(1, p.total_residue()+1)
     b = sorted(map(str.upper,IUPACData.protein_letters_3to1.keys()))
     TARGET, NEW_RES = list(product(a,b))[INDEX]
-    print('target:', TARGET, 'new_res:', NEW_RES)
+    mut = '{}{}{}'.format(p.sequence()[TARGET-1], TARGET, IUPACData.protein_letters_3to1[NEW_RES.capitalize()])
+    print('target:', TARGET, 'new_res:', NEW_RES, 'mut:', mut)
 else:
     TARGET = 10
     NEW_RES = 'ILE'
+    mut = 'M10I_example'
     # this is a synonymous mutation
     # I think
 
@@ -92,4 +94,4 @@ mc.set_scorefxn(sfxn)
 mc.apply(p)
 
 #output a scored PDB
-p.dump_scored_pdb('input_pose_0001.pdb', sfxn)
+p.dump_scored_pdb('output_files/mutant_{}.pdb'.format(mut), sfxn)
