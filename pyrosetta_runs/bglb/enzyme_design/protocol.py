@@ -1,97 +1,89 @@
-import rosetta
-import pyrosetta
+import os
+from itertools import product
 
+from Bio.SeqUtils import IUPACData
+import pyrosetta
+from rosetta.protocols import enzdes, simple_moves, moves
+from rosetta.core import pack
+
+INDEX = int(os.getenv('SLURM_ARRAY_TASK_ID'))
 INPUT_POSE = 'input_pose.pdb'
 PARAMS = 'pnpg.params'
 CST_FILE = 'pnpg.cst'
-TARGET = 119
-NEW_RES = 'PHE' # has to be three-letter code
 
 pyrosetta.init('-beta -extra_res_fa pnpg.params -run:preserve_header')
 
-print('DetectProteinLigandInterface options: ')
-print(pyrosetta.rosetta.basic.options.get_real_option('enzdes:cut1'))
-print(pyrosetta.rosetta.basic.options.get_real_option('enzdes:cut2'))
-print(pyrosetta.rosetta.basic.options.get_real_option('enzdes:cut3'))
-print(pyrosetta.rosetta.basic.options.get_real_option('enzdes:cut4'))
-print(pyrosetta.rosetta.basic.options.get_boolean_option('enzdes:detect_design_interface'))
-
-# pyrosetta.rosetta.basic.options.set_real_option('enzdes:cut1',10.0)
-
-# get a generic scorefxn
+# create a pose
 p = pyrosetta.pose_from_file(INPUT_POSE)
-sfxn = pyrosetta.create_score_function('beta_cst')
-soft_rep = pyrosetta.create_score_function('soft_rep')
 orig = p.sequence()
 
+# calculate the mutant we are making if there is an index set
+if INDEX:
+    a = range(1, p.total_residue()+1)
+    b = map(str.upper,IUPACData.protein_letters_3to1.keys())
+    TARGET, NEW_RES = list(product(a,b))[INDEX]
+    print('target:', TARGET, 'new_res:', NEW_RES)
+else:
+    TARGET = 10
+    NEW_RES = 'ILE'
+    # this is a synonymous mutation
+    # I think
+
+
+# get a scorefxn
+sfxn = pyrosetta.create_score_function('beta_cst')
+soft_rep = pyrosetta.create_score_function('soft_rep')
+
 # enzyme design constraints
-addcsts = rosetta.protocols.enzdes.AddOrRemoveMatchCsts()
+addcsts = enzdes.AddOrRemoveMatchCsts()
 addcsts.cstfile(CST_FILE)
-addcsts.set_cst_action(rosetta.protocols.enzdes.CstAction.ADD_NEW)
+addcsts.set_cst_action(enzdes.CstAction.ADD_NEW)
 addcsts.apply(p)
 
 # predock
-predock = rosetta.protocols.enzdes.PredesignPerturbMover()
+predock = enzdes.PredesignPerturbMover()
 predock.trans_magnitude(0.1)
 predock.rot_magnitude(2)
 predock.set_ligand(p.total_residue())
 
-
 ## enzyme design fixed backbone
-enzdes = rosetta.protocols.enzdes.EnzRepackMinimize()
-enzdes.set_scorefxn_minimize(sfxn)
-enzdes.set_scorefxn_repack(soft_rep)
-enzdes.set_min_lig(True)
-enzdes.set_min_rb(True)
-enzdes.set_min_sc(True)
-enzdes.set_design(False)
-
-## enzyme design flexible backbone
-enzdes_wbb = rosetta.protocols.enzdes.EnzRepackMinimize()
-enzdes_wbb.set_scorefxn_minimize(sfxn)
-enzdes_wbb.set_min_lig(True)
-enzdes_wbb.set_min_rb(True)
-enzdes_wbb.set_min_sc(True)
-enzdes_wbb.set_design(False)
-enzdes_wbb.set_scorefxn_repack(soft_rep)
-enzdes_wbb.set_min_bb(True)
+repack_min = enzdes.EnzRepackMinimize()
+repack_min.set_scorefxn_minimize(sfxn)
+repack_min.set_scorefxn_repack(soft_rep)
+repack_min.set_min_lig(True)
+repack_min.set_min_rb(True)
+repack_min.set_min_sc(True)
+repack_min.set_design(False)
 
 # init the scoring of the pose
 sfxn(p) # you need this for nbr graph to populate
 
-
-tf = rosetta.core.pack.task.TaskFactory()
-
 # Sets up the packing/design shells from the global options set above
-dp = rosetta.protocols.enzdes.DetectProteinLigandInterface()
+dp = enzdes.DetectProteinLigandInterface()
 dp.init_from_options()
 
 # This restricts the residues define in the constraint file to only be allowed to pack, not designable
-canttouchcatres = rosetta.protocols.enzdes.SetCatalyticResPackBehavior()
+canttouchcatres = enzdes.SetCatalyticResPackBehavior()
 canttouchcatres.set_fix_catalytic_aa(False) ## seems to freeze them, no repacking if set to True
 
 # push on to the back of the list
+tf = pack.task.TaskFactory()
 tf.push_back(dp)
 tf.push_back(canttouchcatres)
-# tf.push_back(limchi2)
-
-# Create a packer task, specifically for the cstopt mover to work
 pt = tf.create_task_and_apply_taskoperations(p)
-
-enzdes.task_factory(tf)
-enzdes_wbb.task_factory(tf)
+repack_min.task_factory(tf)
 
 #alex's movers
-mutate = rosetta.protocols.simple_moves.MutateResidue(TARGET, NEW_RES)
+mutate = simple_moves.MutateResidue(TARGET, NEW_RES)
 
 # protocol steps
-parsed = rosetta.protocols.moves.SequenceMover()
+parsed = moves.SequenceMover()
 parsed.add_mover(mutate)
 parsed.add_mover(predock)
-parsed.add_mover(enzdes)
+parsed.add_mover(repack_min)
 
 # monte carlo
-mc = rosetta.protocols.simple_moves.GenericMonteCarloMover()
+mc = simple_moves.GenericMonteCarloMover()
 mc.set_drift(True)
 mc.set_maxtrials(500)
 mc.set_sampletype('low')
