@@ -10,6 +10,7 @@ INDEX = int(os.getenv('SLURM_ARRAY_TASK_ID'))
 INPUT_POSE = 'input_pose.pdb'
 PARAMS = 'pnpg.params'
 CST_FILE = 'pnpg.cst'
+OUT_PATH = '/share/work/alex/output__bglb_family/pyrosetta_runs/bglb/enzyme_design'
 
 # initialize PyRosetta
 pyrosetta.init('-beta -extra_res_fa pnpg.params -run:preserve_header')
@@ -94,4 +95,5 @@ mc.set_scorefxn(sfxn)
 mc.apply(p)
 
 #output a scored PDB
-p.dump_scored_pdb('output_files/mutant_{}.pdb'.format(mut), sfxn)
+out_path = os.path(OUT_PATH, 'mutant_{}.pdb'.format(mut))
+p.dump_scored_pdb(out_path, sfxn)
