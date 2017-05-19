@@ -1,6 +1,5 @@
 import os
 from itertools import product
-
 from Bio.SeqUtils import IUPACData
 import pyrosetta
 from rosetta.protocols import enzdes, simple_moves, moves
@@ -10,7 +9,7 @@ INDEX = int(os.getenv('SLURM_ARRAY_TASK_ID'))
 INPUT_POSE = 'input_pose.pdb'
 PARAMS = 'pnpg.params'
 CST_FILE = 'pnpg.cst'
-OUT_PATH = '/share/work/alex/output__bglb_family/pyrosetta_runs/bglb/enzyme_design'
+OUT_PATH = 'output_files' 
 
 # initialize PyRosetta
 pyrosetta.init('-beta -extra_res_fa pnpg.params -run:preserve_header')
@@ -57,6 +56,16 @@ repack_min.set_min_rb(True)
 repack_min.set_min_sc(True)
 repack_min.set_design(False)
 
+## enzyme design with backbone movement 
+repack_min = enzdes.EnzRepackMinimize()
+repack_min.set_scorefxn_minimize(sfxn)
+repack_min.set_scorefxn_repack(soft_rep)
+repack_min.set_min_lig(True)
+repack_min.set_min_rb(True)
+repack_min.set_min_sc(True)
+repack_min.set_design(False)
+repack_min.set_min_bb(True)
+
 # init the scoring of the pose
 sfxn(p) # you need this for nbr graph to populate
 
@@ -87,7 +96,7 @@ parsed.add_mover(repack_min)
 # monte carlo
 mc = simple_moves.GenericMonteCarloMover()
 mc.set_drift(True)
-mc.set_maxtrials(500)
+mc.set_maxtrials(50)
 mc.set_sampletype('low')
 mc.set_temperature(0.6)
 mc.set_mover(parsed)
@@ -95,5 +104,5 @@ mc.set_scorefxn(sfxn)
 mc.apply(p)
 
 #output a scored PDB
-out_path = os.path(OUT_PATH, 'mutant_{}.pdb'.format(mut))
+out_path = os.path.join(OUT_PATH, 'mutant_{}.pdb'.format(mut))
 p.dump_scored_pdb(out_path, sfxn)
