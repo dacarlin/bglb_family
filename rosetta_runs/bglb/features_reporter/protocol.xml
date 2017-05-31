@@ -1,0 +1,14 @@
+<ROSETTASCRIPTS>
+<SCOREFXNS>
+  <t weights=talaris2014_cst.wts />
+</SCOREFXNS>
+<MOVERS>
+  <ReportToDB name=report database_name=features.db3>
+    <feature name=ResidueFeatures />
+    <feature name=InterfaceFeatures scorefxn=t pack_together=false />
+  </ReportToDB>
+</MOVERS>
+<PROTOCOLS>
+    <Add mover=report /> 
+</PROTOCOLS>
+</ROSETTASCRIPTS>

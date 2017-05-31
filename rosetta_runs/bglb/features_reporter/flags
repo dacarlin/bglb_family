@@ -1,0 +1,26 @@
+# options 
+-l list 
+-parser::protocol score_only_protocol.xml 
+-nooutput 
+-extra_res_fa pNPG.params
+
+# packing
+-packing::ex1
+-packing::ex2
+-packing::ex1aro:level 6
+-packing::ex2aro
+-packing::extrachi_cutoff 1
+-packing::use_input_sc
+-packing::flip_HNQ
+-packing::no_optH false
+-packing::optH_MCA false
+
+# enzdes-specific 
+-score::weights talaris2014_cst
+
+# memory
+-run::preserve_header
+-run:version
+-nblist_autoupdate
+-linmem_ig 10
+-chemical:exclude_patches LowerDNA  UpperDNA Cterm_amidation VirtualBB ShoveBB VirtualDNAPhosphate VirtualNTerm CTermConnect sc_orbitals pro_hydroxylated_case1 pro_hydroxylated_case2 ser_phosphorylated thr_phosphorylated  tyr_phosphorylated tyr_sulfated lys_dimethylated lys_monomethylated  lys_trimethylated lys_acetylated glu_carboxylated cys_acetylated tyr_diiodinated N_acetylated C_methylamidated MethylatedProteinCterm
