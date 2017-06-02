@@ -3,10 +3,10 @@
 #PROJECT_ROOT=
 #PARAMS_PATH=
 
-cp -r input_pkg output_files 
+rsync -avz input_pkg/ output_files 
 cd output_files 
-
-python generate_input_files.py ../params.json 
+pwd 
+python guess_catalytic_residues.py 
 ( cat enzdes_header.txt && grep '^ATOM' ../../hybridize/low_energy.pdb && cat pnpg.pdb ) > input_pose.pdb
-rosetta_scripts.default.macosclangrelease @flags 
+rosetta_scripts.default.macosclangrelease @dock_flags 
 
