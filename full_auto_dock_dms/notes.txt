@@ -1,0 +1,57 @@
+From Steve: 
+
+nbrselect = rosetta.core.select.residue_selector.NeighborhoodResidueSelector()
+nbrselect.set_focus('446')
+nbrselect.set_distance(12.0)   #these nbrselect can pack
+#ang12nbr = nbrselect.apply(p)
+
+# if you're not a neighbor, freeze packing
+notnbr =rosetta.core.select.residue_selector.NotResidueSelector(nbrselect)
+
+
+# In[5]:
+
+#notnbr =rosetta.core.select.residue_selector.NotResidueSelector(nbrselect)
+#notnbr.apply(p) # set these to just repack
+# set ang12 nbr aka nbr select to design (already turned on,)
+# so just need to make a packertask out of these selections
+
+#tf = rosetta.core.pack.task.TaskFactory()
+#pt = tf.create_packer_task(p)
+#
+#repackokTO = rosetta.core.pack.task.operation.RestrictToRepackingRLT()
+#nopackTO = rosetta.core.pack.task.operation.PreventRepackingRLT()
+#
+#op = rosetta.core.pack.task.operation.OperateOnResidueSubset( nopackTO, notnbr)
+#op.apply(p,pt) # do I need to apply onto pose? or can I add as a task op to the mover?
+
+
+
+# In[6]:
+
+# Trust, but verify ;)
+#for i in xrange(1,p.total_residue()+1):
+#    print i,pt.being_designed(i),pt.being_packed(i)
+
+
+# In[7]:
+
+# now do the same, but turning off design for 
+#op_turnoffdesign = rosetta.core.pack.task.operation.OperateOnResidueSubset( repackokTO, nbrselect )
+#op_turnoffdesign.apply(p,pt)
+
+
+import rosetta
+import pyrosetta
+pyrosetta.init('-extra_res_fa LG1.params -run:preserve_header T -out:level 300')
+p = pyrosetta.pose_from_file('input.pdb')
+sfxn = pyrosetta.get_fa_scorefxn()
+sfxn(p)
+neighborresselect = rosetta.core.select.residue_selector.NeighborhoodResidueSele
+ctor()
+neighborresselect.set_focus("446")
+print neighborresselect.apply(p)
+
+andlook in here: 
+
+https://github.com/RosettaCommons/main/blob/master/source/src/apps/public/comparative_modeling/partial_thread.cc
