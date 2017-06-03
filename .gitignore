@@ -1,4 +1,5 @@
 *.h5
 logs/*
-
-
+S_*.pdb
+*_thread.pdb
+slurm*

@@ -52,5 +52,5 @@ We can easily dock, becuase we know the catalytic geometry. Here is the workflow
 5. score for features (same features as for the native model)
 6. train elastic net on BglB data set, and then do blind predictions
 7. if those aren't very good, then try using bagging
-8. write up results, whatever they are, and present to Justin as a paper
-9. profit?
+8. write up results
+9. profit 
