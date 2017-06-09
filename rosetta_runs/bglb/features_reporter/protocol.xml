@@ -6,7 +6,6 @@
   <ReportToDB name="report" database_name="features.db3">
     <ResidueFeatures />
     <InterfaceFeatures scorefxn="beta" pack_together="false" />
-    <ScoreTypeFeatures scorefxn="beta" />
     <ResidueScoresFeatures scorefxn="beta" />
   </ReportToDB>
 </MOVERS>
