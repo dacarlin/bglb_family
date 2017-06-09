@@ -1,0 +1,15 @@
+# chemical restraints for pNPG hydrolysis by Q97AX4
+
+# pNPG (residue 482) and acid/base E205
+AtomPair O2 482 OE2 205 HARMONIC 1.8 0.18
+Angle O2 482 OE2 205 CD 205 HARMONIC 0 10
+Dihedral O2 482 OE2 205 CD 205 CG 205 HARMONIC 0 10
+
+# pNPG and nucleophile E380
+AtomPair C5 482 OE2 380 HARMONIC 2.0 0.20
+Angle O2 482 C5 482 OE2 380 HARMONIC 0 10
+Angle C5 482 OE2 380 CD 380 HARMONIC 0 10
+Dihedral C5 482 OE2 380 CD 380 CG 380 HARMONIC 0 10
+
+# nucleophile E380 and Y315
+AtomPair OE2 380 OH 315 HARMONIC 3.0 0.30
