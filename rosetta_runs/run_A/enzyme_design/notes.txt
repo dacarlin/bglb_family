@@ -1,0 +1,10 @@
+# How to run 
+
+To run, you need to have a model with docked TSS. In this case (run A), `input_pose_0001` was chosen by manual inspection from the output of tss_docking run and used as "input_pose.pdb" here 
+
+We pull the low-energy docked model from the `../tss_docking` folder by hand for now, but could easily automate this process with Python script. 
+
+Next, we run `python create_run.py` to set up the parallel run. This generates the file `input_pkg/list.txt`, each line of which contains Rosetta flags for generating one mutant. This also generates the `sub.sh` file used for running the entire set. 
+
+Last, run the entire protocol with `sbatch sub.sh`. 
+
