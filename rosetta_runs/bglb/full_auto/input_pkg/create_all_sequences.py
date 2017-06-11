@@ -14,5 +14,5 @@ for record in SeqIO.parse('bglb_model.fa', 'fasta'):
       seq = '>{}\n{}\n'.format(name, s)
       seqs.append(seq)
 
-with open('all_sequences.fa', 'w') as fn:
+with open('all_sequences.fasta', 'w') as fn:
   fn.write(''.join(seqs)) 

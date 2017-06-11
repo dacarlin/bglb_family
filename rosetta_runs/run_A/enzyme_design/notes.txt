@@ -8,3 +8,4 @@ Next, we run `python create_run.py` to set up the parallel run. This generates t
 
 Last, run the entire protocol with `sbatch sub.sh`. 
 
+Thursday, 6:30 PM, ran with --array=1-8. If those work, will run all 

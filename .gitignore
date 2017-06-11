@@ -3,3 +3,7 @@ logs/*
 S_*.pdb
 *_thread.pdb
 slurm*
+output_files/*
+features.db3
+log.txt
+

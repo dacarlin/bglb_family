@@ -26,3 +26,4 @@ output_fn='input_pkg/list.txt'
 with open(output_fn,'w') as fn:
   fn.write( ''.join(lines) )
 
+print('Add to sub.sh: #SBATCH --array=1-{}'.format(len(lines)))
