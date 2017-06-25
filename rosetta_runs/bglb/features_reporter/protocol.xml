@@ -1,15 +1,16 @@
 <ROSETTASCRIPTS>
 <SCOREFXNS>
-  <ScoreFunction name="beta" weights="beta" />
+  <ScoreFunction name="sf" weights="beta"/>
 </SCOREFXNS>
 <MOVERS>
   <ReportToDB name="report" database_name="features.db3">
-    <ResidueFeatures />
-    <InterfaceFeatures scorefxn="beta" pack_together="false" />
-    <ResidueScoresFeatures scorefxn="beta" />
+    <ResidueFeatures/>
+    <ScoreTypeFeatures/>
+    <ResidueScoresFeatures scorefxn="sf"/>
   </ReportToDB>
 </MOVERS>
 <PROTOCOLS>
-    <Add mover="report" /> 
+    <Add mover="report"/>
 </PROTOCOLS>
 </ROSETTASCRIPTS>
+
