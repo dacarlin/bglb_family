@@ -1,0 +1,21 @@
+-write_pdb_link_records 0
+-beta 
+-enzdes:bb_min_allowed_dev 0.05
+-enzdes:cstfile pnpg.cst
+-extra_res_fa pnpg.params
+-jd2:enzdes_out
+-linmem_ig 10
+-nblist_autoupdate
+-nstruct 10
+-packing:ex1
+-packing:ex1aro:level 6
+-packing:ex2
+-packing:ex2aro
+-packing:extrachi_cutoff 1
+-packing:flip_HNQ
+-packing:no_optH false
+-packing:optH_MCA false
+-packing:use_input_sc
+-parser:protocol protocol.xml
+-run:preserve_header
+-s input_pose.pdb 
