@@ -3,7 +3,9 @@ logs/*
 S_*.pdb
 *_thread.pdb
 slurm*
-output_files/*
-features.db3
+*/output_files/*
+*.db3
 log.txt
+.ipynb_checkpoints
+.DS_Store
 
