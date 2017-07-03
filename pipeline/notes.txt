@@ -1,6 +1,6 @@
+# 
+
 To trun this into Python through and through ...
-
-
 
 nbrselect = rosetta.core.select.residue_selector.NeighborhoodResidueSelector()
 nbrselect.set_focus('446')
@@ -9,9 +9,6 @@ nbrselect.set_distance(12.0)   #these nbrselect can pack
 
 # if you're not a neighbor, freeze packing
 notnbr =rosetta.core.select.residue_selector.NotResidueSelector(nbrselect)
-
-
-# In[5]:
 
 #notnbr =rosetta.core.select.residue_selector.NotResidueSelector(nbrselect)
 #notnbr.apply(p) # set these to just repack
@@ -27,21 +24,13 @@ notnbr =rosetta.core.select.residue_selector.NotResidueSelector(nbrselect)
 #op = rosetta.core.pack.task.operation.OperateOnResidueSubset( nopackTO, notnbr)
 #op.apply(p,pt) # do I need to apply onto pose? or can I add as a task op to the mover?
 
-
-
-# In[6]:
-
 # Trust, but verify ;)
 #for i in xrange(1,p.total_residue()+1):
 #    print i,pt.being_designed(i),pt.being_packed(i)
 
-
-# In[7]:
-
 # now do the same, but turning off design for
 #op_turnoffdesign = rosetta.core.pack.task.operation.OperateOnResidueSubset( repackokTO, nbrselect )
 #op_turnoffdesign.apply(p,pt)
-
 
 import rosetta
 import pyrosetta

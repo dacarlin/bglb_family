@@ -2,13 +2,8 @@ from Bio import SeqIO
 import pandas 
 import os 
 
-# here we go boys 
-
 def get_features():
     for n in range(1, 2889):
-
-        # let's keep it simple. 
-        # did we get a docked model here? 
 
         features = []
         base = '/share/work/alex/bglb_family/completed_pipeline/output_files/'
