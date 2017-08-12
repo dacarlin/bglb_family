@@ -1,0 +1,30 @@
+<ROSETTASCRIPTS>
+<SCOREFXNS>
+  <ScoreFunction name="s" weights="beta_cst"/>
+</SCOREFXNS>
+<TASKOPERATIONS>
+  <DetectProteinLigandInterface name="detect" design="0" />
+</TASKOPERATIONS>
+<FILTERS>
+  <EnzScore name="constraint_energy" score_type="cstE" scorefxn="s" energy_cutoff="999999" whole_pose="1"/>
+</FILTERS>
+<MOVERS>
+  <AddOrRemoveMatchCsts cst_instruction="add_new" keep_covalent="true" name="add_cst" />
+  <MutateResidue name="mutate" target="%%target%%" new_res="%%new_res%%" />
+  <EnzRepackMinimize name="desmin_nobb" design="0" repack_only="1" scorefxn_minimize="soft_rep" scorefxn_repack="soft_rep" minimize_rb="1" minimize_sc="1" minimize_bb="0" minimize_lig="1" task_operations="detect"/>
+  <PredesignPerturbMover name="predock" rot_magnitude="2.0" trans_magnitude="0.1" dock_trials="1000"/>
+  <EnzRepackMinimize name="desmin_wbb" design="0" repack_only="1" scorefxn_minimize="s" scorefxn_repack="s" minimize_rb="1" minimize_sc="1" minimize_bb="1" cycles="1" minimize_lig="1" min_in_stages="0" backrub="0" task_operations="detect"/>
+  <EnzRepackMinimize name="cstopt" cst_opt="1" minimize_rb="1" minimize_sc="1" minimize_bb="0" cycles="1" min_in_stages="0" minimize_lig="1"/>
+  <ParsedProtocol name="dock_des">
+    <Add mover="predock"/>
+    <Add mover="cstopt"/>
+    <Add mover="desmin_wbb"/>
+  </ParsedProtocol>
+  <GenericMonteCarlo name="multi_dd" mover_name="dock_des" filter_name="constraint_energy" sample_type="low" temperature="0.6" drift="1"/>
+</MOVERS>
+<PROTOCOLS>
+  <Add mover_name="add_cst"/>
+  <Add mover_name="desmin_nobb"/>
+  <Add mover_name="multi_dd"/>
+</PROTOCOLS>
+</ROSETTASCRIPTS>
