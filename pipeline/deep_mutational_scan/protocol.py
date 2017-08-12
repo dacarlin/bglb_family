@@ -1,8 +1,9 @@
 import os 
 import io 
+import sys 
+
 import pyrosetta 
 import pandas 
-import sys 
 from random import choice
 from rosetta import core, protocols 
 from Bio.Data import IUPACData 
@@ -86,4 +87,5 @@ def deep_mutational_scan(pose, score_function, mask=None):
                     print("Failed on", name)
             
 df = pandas.DataFrame(deep_mutational_scan(pose, beta, 10)) 
+df.to_csv('features.csv') 
 print(df.shape) 

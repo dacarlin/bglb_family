@@ -1,6 +1,10 @@
-# Software pipeline for modeling the GH01 enzyme family 
+# Software pipeline for modeling the GH1 enzyme family 
 
 This pipeline is designed to handle thousands of input sequences and run on Cabernet in a few days. 
+
+## A look at GH1 family 
+
+The glycosyl hydrolase 1 family consists of over 11,000 sequences found by searching genomic databases using the Pfam's HMM. To choose which of these we are able to model, we first inspect the alignment for the known catalytic residues in this family (information which Pfam does not use).
 
 Broadly, we have three parts 
 
