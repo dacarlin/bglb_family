@@ -1,7 +1,7 @@
--beta
+-s input_pose.pdb 
 -enzdes:bb_min_allowed_dev 0.05
--enzdes:cstfile pNPG.enzdes.cst
--extra_res_fa pNPG.params
+-enzdes:cstfile 4mu_enzdes.cst
+-extra_res_fa LG.params
 -jd2:enzdes_out
 -linmem_ig 10
 -nblist_autoupdate
@@ -17,4 +17,4 @@
 -packing:use_input_sc
 -parser:protocol protocol.xml
 -run:preserve_header
--s ../../../tss_docking/bgl3_wlig_wheader_0003.pdb 
+-beta 
