@@ -1,0 +1,4 @@
+/share/work/alex/bglb_family/completed_pipeline/output_files/2885
+/share/work/alex/bglb_family/completed_pipeline/output_files/1
+/share/work/alex/bglb_family/completed_pipeline/output_files/2886
+/share/work/alex/bglb_family/completed_pipeline/output_files/2887
