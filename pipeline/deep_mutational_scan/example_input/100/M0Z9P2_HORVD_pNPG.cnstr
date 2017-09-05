@@ -1,0 +1,15 @@
+# chemical restraints for pNPG hydrolysis by M0Z9P2_HORVD
+
+# pNPG (residue 419) and acid/base E109
+AtomPair O2 419 OE2 109 HARMONIC 1.8 0.18
+Angle O2 419 OE2 109 CD 109 HARMONIC 0 10
+Dihedral O2 419 OE2 109 CD 109 CG 109 HARMONIC 0 10
+
+# pNPG and nucleophile E325
+AtomPair C5 419 OE2 325 HARMONIC 2.0 0.20
+Angle O2 419 C5 419 OE2 325 HARMONIC 0 10
+Angle C5 419 OE2 325 CD 325 HARMONIC 0 10
+Dihedral C5 419 OE2 325 CD 325 CG 325 HARMONIC 0 10
+
+# nucleophile E325 and Y253
+AtomPair OE2 325 OH 253 HARMONIC 3.0 0.30

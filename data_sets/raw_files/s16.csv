@@ -1,0 +1,32 @@
+Click here! Notes contained!,Metadata,"
+",,,Transformation,,,Growth,Expression,Purification,,,Gel,,,,Assay,Kinetics,,,,Thermal stability,,,Complete data
+Researcher,Mutant name,Box,Row,Column ,Date of transformation,Image of transformation plate,Colonies on transformation plate,Growth pellet weight (mg),Expression pellet weight (mg),"Beads used (0=nickel, 1=cobalt)",Protein yield by A280 (mg/mL),"Normalized protein yield (mg/mL), formula","Gel image saved (0=no, 1=yes)",Gel number,Gel lane (on gel number at left),"Protein appears on gel (0=no, 1=yes)","Assay data entered in ""Assay data"" sheet (0=no, 1=yes)",kcat,"Percent error, kcat",Km,"Percent error, KM",Tm,"Percent error, Tm",Notes,"Data complete (0=no, 1=yes)"
+Matt/David/DR,E406Q*,3,C,6,8/8/16,,,,,0,0.15,,,,,,1,9.2,41.8,128.3,61.7,,,,
+Alex G.,K413A,1,H,7,8/8/16,,12,,,0,1.89,,1,BGL Gel 01 / 03,,1,1,13.3,2.7,42.4,5.9,,,,
+Matt/David/DR,H178N,3,B ,8,8/8/16,,,,,0,0.12,,,,,,1,29,3.3,3.7,13.3,,,,
+Matt/David/DR,D322A*,3,B,7,8/8/16,,,,,0,0.11,,,,,,1,100.8,3.7,4.3,14.7,,,,
+Alex G./DR,M261E,2,F,1,8/8/16,,50,,,0,0.3,,1,BGL Gel 03,,1,1,183.4,4.1,8.4,14.3,,,,0
+Danny R.,H315Y,2,C,5,6/28/16,,,,,0,0.143,,1,BGL Gel 02,2,1,1,191.8,2.5,6.2,9.3,,,,0
+David B.,L219A,1,B,9,6/28/16,,,,,0,0.28,,1,BGL Gel 01 / 03,8,1,1,248.4,2,3.9,8.1,,,,0
+Alex G.,E177S,2,C,2,8/8/16,,40,,,0,2.17,,1,BGL Gel 01 / 03,,1,1,266.7,2,4.4,7.9,,,,
+Alex G.,L219A,1,B,9,8/8/16,,7,,,0,0.36,,1,BGL Gel 01,,1,1,304.9,3.1,8,10.7,,,,
+Alex G.,H315Y,2,C,5,8/8/16,,5,,,0,2.78,,1,BGL Gel 03,,1,1,526.7,3,5.1,11.6,,,,
+David B.,H315A,2,B,9,8/4/16,,,,,0,2.41,,0,,,,1,567.4,4.7,2.4,20.5,,,,0
+David B.,K413A,1,H,7,6/28/16,,,,,0,1.92,,1,BGL Gel 01,7,1,1,587.6,3.3,2.6,14.7,,,,0
+David B./DR,Q284R,1,F,5,8/4/16,,,,,0,2.77,,0,,,,1,588.4,3.9,2.5,16.7,,,,0
+Alex G.,E353E,2,I,5,6/28/16,,,,,0,1.98,,1,BGL Gel 01,,1,1,622.5,3,3.4,12.2,,,,0
+Alex G.,E426S,2,E,5,6/28/16,,,,,0,0.87,,1,BGL Gel 01,,1,1,639.9,2.1,4.1,8.5,,,,0
+Alex G.,E426S,2,E,5,8/8/16,,hundreds,,,0,2.1,,1,BGL Gel 01 / 03,,1,1,677.8,4.9,5.8,18.4,,,,
+Alex G.,E353E,2,I,5,8/8/16,,40,,,0,1.75,,1,BGL Gel 01 / 03,,1,1,705.8,2.4,6.9,15,,,,
+Alex G.,E177S,2,C,2,6/28/16,,,,,0,1.22,,1,BGL Gel 01,,1,1,742,2.6,4.4,10.3,,,,0
+Matt/David,L272N,3,A,9,8/24,,,,,0,0.41,,,,,,,790.2,5,2.7,21.3,,,,
+Matt/David,V320Q*,2,G,7,8/24,,,,,0,0.37,,,,,,,1144.6,6.3,6.8,22.7,,,,
+Danny R.,F405A,1,C,7,6/28/16,,,,,0,0.113,,1,BGL Gel 02,1,1,1,NA,NA,NA,NA,,,,0
+David B.,H379R,1,F,3,6/28/16,,,,,0,0.54,,1,BGL Gel 01,9,1,1,NA,NA,NA,NA,NA,NA,,0
+Alex G.,R76Q,2,D,6,,,,,,,,,0,,,,0,,,,,,,,0
+Alex G.,V147S,1,E,8,,,,,,,,,0,,,,1,,,,,,,,0
+Danny R. / Alex G.,W409A,1,D,8,,,,,,,,,0,,,,0,,,,,,,,0
+David B. / Alex G.,W409E,2,B,6,,,,,,,,,0,,,,0,,,,,,,,0
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,didn't transform,,,,,,,,,,,,,,,,,,,,,,
+,,,duplicates,,,,,,,,,,,,,,,,,,,,,,

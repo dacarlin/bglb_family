@@ -1,0 +1,23 @@
+Start calculating the distance matrix ... Done.
+
+Start making a guide tree ... Done.
+
+Start aligning similar sequences ... Done.
+      Number of input sequences: 3
+      Number of pre-aligned groups: 2
+
+Start aligning divergent groups ...
+      - Running PSI-BLAST and PSIPRED ...
+        **
+      - Calculating profiles ...
+        **
+      - Making consistency scoring fuction ...
+        **
+      - Making progressive alignments ...
+
+Start refining alignment ...
+	- step 1
+	- step 2
+	- step 3
+
+PROMALS is now finished

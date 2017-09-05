@@ -1,0 +1,35 @@
+<ROSETTASCRIPTS>
+<SCOREFXNS>
+  <ScoreFunction name="beta_cst" weights="beta_cst" />
+</SCOREFXNS>
+<RESIDUE_SELECTORS>
+  <Neighborhood name="nhood" resnums="%%t%%,448" distance="12.5" />
+  <Not name="outside_hood" selector="nhood" />
+</RESIDUE_SELECTORS>
+<TASKOPERATIONS>
+  <OperateOnResidueSubset name="task1" selector="nhood" >
+     <RestrictToRepackingRLT/>
+  </OperateOnResidueSubset>
+  <OperateOnResidueSubset name="task2" selector="outside_hood" >
+     <PreventRepackingRLT/>
+  </OperateOnResidueSubset>
+</TASKOPERATIONS>
+<MOVERS>
+  <MutateResidue name="mutate" target="%%t%%" new_res="%%n%%" />
+  <ConstraintSetMover name="set_constraints" cst_file="pNPG.cst"/>
+  <TaskAwareMinMover jump="1" name="min" chi="true" bb="false" task_operations="task1,task2" scorefxn="beta_cst" />
+  <PackRotamersMover name="pack" scorefxn="beta_cst" task_operations="task1,task2" />
+  <ParsedProtocol name="cycle">
+    <Add mover="pack"/>
+    <Add mover="min"/>
+  </ParsedProtocol>
+  <GenericMonteCarlo name="mc" mover_name="cycle" temperature="0.6" trials="50" scorefxn_name="beta_cst" />
+</MOVERS>
+<APPLY_TO_POSE>
+</APPLY_TO_POSE>
+<PROTOCOLS>
+  <Add mover="mutate"/>
+  <Add mover="set_constraints"/>
+  <Add mover="mc"/>
+</PROTOCOLS>
+</ROSETTASCRIPTS>

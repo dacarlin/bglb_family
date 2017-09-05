@@ -1,0 +1,5 @@
+Input file: 
+
+- put a line for each folder containing output from CM pipeline
+- the folder is meant to contain "target.fasta" to get the sequence 
+- the folder is meant to contain "DMS_input.pdb" (enzyme design docked, low-energy model)

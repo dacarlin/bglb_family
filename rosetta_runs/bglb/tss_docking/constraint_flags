@@ -1,0 +1,8 @@
+-s input_pose.pdb 
+-enzdes:cstfile pnpg.cst 
+-extra_res_fa pnpg.params
+-parser:protocol constraint_capture.xml
+-run:preserve_header 
+-no_output 
+-mute all 
+-unmute protocols.simple_moves.CstInfoMover

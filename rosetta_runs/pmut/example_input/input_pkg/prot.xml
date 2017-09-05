@@ -1,0 +1,38 @@
+<ROSETTASCRIPTS>
+<SCOREFXNS>
+  <ScoreFunction name="s" weights="ref2015_cst" />
+</SCOREFXNS>
+<TASKOPERATIONS>
+  <DesignAround name="lig" resnums="%%t%%,%%l%%" allow_design="0" resnums_allow_design="0" />
+</TASKOPERATIONS>
+<FILTERS>
+  <EnzScore name="cst_filter" score_type="cstE" scorefxn="s" whole_pose="1" energy_cutoff="1000" />
+</FILTERS>
+<MOVERS>
+  <AddOrRemoveMatchCsts name="cstadd" cst_instruction="add_new" />
+  <MutateResidue name="mutate" target="%%t%%" new_res="%%n%%" />
+  <PredesignPerturbMover name="predock" />
+  <EnzRepackMinimize name="repack_wbb" repack_only="1" scorefxn_minimize="s" scorefxn_repack="s"
+    minimize_rb="1" minimize_sc="1" minimize_bb="1" minimize_lig="1" task_operations="lig" />
+  <ParsedProtocol name="iterate">
+    <Add mover="predock" />
+    <Add mover="repack_wbb" />
+  </ParsedProtocol>
+  <GenericMonteCarlo name="monte" mover_name="iterate" filter_name="cst_filter" />
+  <ReportToDB name="feats" database_name="data.db3">
+    <ScoreTypeFeatures/>
+    <StructureScoresFeatures scorefxn="s"/>
+    <ResidueFeatures />
+    <InterfaceFeatures scorefxn="s" pack_together="0" />
+    <ResidueScoresFeatures scorefxn="s" />
+  </ReportToDB>
+</MOVERS>
+<APPLY_TO_POSE>
+</APPLY_TO_POSE>
+<PROTOCOLS>
+  <Add mover="cstadd" />
+  <Add mover="mutate" />
+  <Add mover="monte" />
+  <Add mover="feats" />
+</PROTOCOLS>
+</ROSETTASCRIPTS>

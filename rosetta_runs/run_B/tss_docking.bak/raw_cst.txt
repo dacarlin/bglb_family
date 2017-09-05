@@ -1,0 +1,24 @@
+protocols.simple_moves.CstInfoMover: Loading constraints from pose: Warning - constraint ordering may be inconsistent.
+protocols.simple_moves.CstInfoMover: Read 3 constraints. 
+protocols.simple_moves.CstInfoMover: ------------ Constraints read from pose -------------
+protocols.simple_moves.CstInfoMover: # Constraint for 'CST_1' is:
+protocols.simple_moves.CstInfoMover: MultiConstraint
+protocols.simple_moves.CstInfoMover: AtomPair  O2   446  OE2  164 BOUNDED     2.5       3 0.0447214 dis
+Angle  O2   446  OE2  164  CD   164 OFFSETPERIODICITYBOUNDED offset 2.0944 period 6.28319 BOUNDED -0.0872665 0.0872665 0.0447214 offsetperiodicbound
+Dihedral  O2   446  OE2  164  CD   164  CG   164 OFFSETPERIODICITYBOUNDED offset3.14159 period 6.28319 BOUNDED -0.174533 0.174533 0.0447214 offsetperiodicbound
+End_MultiConstraint
+protocols.simple_moves.CstInfoMover: 
+protocols.simple_moves.CstInfoMover: # Constraint for 'CST_2' is:
+protocols.simple_moves.CstInfoMover: MultiConstraint
+protocols.simple_moves.CstInfoMover: AtomPair  OE2  353  OH   295 BOUNDED     2.5     3.5 0.0447214 dis
+End_MultiConstraint
+protocols.simple_moves.CstInfoMover: 
+protocols.simple_moves.CstInfoMover: # Constraint for 'CST_3' is:
+protocols.simple_moves.CstInfoMover: MultiConstraint
+protocols.simple_moves.CstInfoMover: AtomPair  C5   446  OE2  353 BOUNDED    1.75    2.25 0.0447214 dis
+Angle  O2   446  C5   446  OE2  353 OFFSETPERIODICITYBOUNDED offset3.14159 period 6.28319 BOUNDED -0.0872665 0.0872665 0.0447214 offsetperiodicbound
+Angle  C5   446  OE2  353  CD   353 OFFSETPERIODICITYBOUNDED offset 2.0944 period 6.28319 BOUNDED -0.0872665 0.0872665 0.0447214 offsetperiodicbound
+Dihedral  C5   446  OE2  353  CD   353  CG   353 OFFSETPERIODICITYBOUNDED offset3.14159 period 6.28319 BOUNDED -0.174533 0.174533 0.0447214 offsetperiodicbound
+End_MultiConstraint
+protocols.simple_moves.CstInfoMover: 
+protocols.simple_moves.CstInfoMover: ----------------------------------------------------

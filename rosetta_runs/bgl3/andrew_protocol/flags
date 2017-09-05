@@ -1,0 +1,6 @@
+-s 1gon.pdb
+-nstruct 10 
+-beta 
+-parser:protocol protocol.xml 
+-extra_res_fa pNPG.params
+-linmem_ig 10 

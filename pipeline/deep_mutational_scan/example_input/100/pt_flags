@@ -1,0 +1,6 @@
+
+-ignore_unrecognized_res
+-beta
+-in:file:fasta target.fasta
+-in:file:alignment ali.gri
+-in:file:template_pdb 3ptkA.pdb 3ptkA.pdb 3ptmA.pdb 3ptmA.pdb 3ptqA.pdb 3ptqA.pdb 3wq4A.pdb 3wq4A.pdb 3wq5A.pdb 3wq5A.pdb 

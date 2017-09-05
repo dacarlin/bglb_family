@@ -1,0 +1,3 @@
+-s example_input/cm_low_energy.pdb
+-parser
+    -protocol protocol.xml

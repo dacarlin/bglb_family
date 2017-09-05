@@ -1,0 +1,15 @@
+# chemical restraints for pNPG hydrolysis by F2NAZ1_CORGP
+
+# pNPG (residue 493) and acid/base E202
+AtomPair O2 493 OE2 202 HARMONIC 1.8 0.18
+Angle O2 493 OE2 202 CD 202 HARMONIC 0 10
+Dihedral O2 493 OE2 202 CD 202 CG 202 HARMONIC 0 10
+
+# pNPG and nucleophile E389
+AtomPair C5 493 OE2 389 HARMONIC 2.0 0.20
+Angle O2 493 C5 493 OE2 389 HARMONIC 0 10
+Angle C5 493 OE2 389 CD 389 HARMONIC 0 10
+Dihedral C5 493 OE2 389 CD 389 CG 389 HARMONIC 0 10
+
+# nucleophile E389 and Y330
+AtomPair OE2 389 OH 330 HARMONIC 3.0 0.30

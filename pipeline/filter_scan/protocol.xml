@@ -1,0 +1,22 @@
+<ROSETTASCRIPTS>
+<SCOREFXNS>
+    <ScoreFunction name="ref" weights="ref2015_cart" />
+</SCOREFXNS>
+<TASKOPERATIONS>
+    <DesignAround name="task" design_shell="100.0" resnums="1" />
+</TASKOPERATIONS>
+<MOVERS>
+    <FastRelax name="relax" scorefxn="ref" />
+    <MinMover name="min" bb="1" chi="1" />
+</MOVERS>
+<FILTERS>
+    <FilterScan name="scan" scorefxn="ref" task_operations="task" filter="true_filter" 
+        relax_mover="relax" score_log_file="log.txt"/>
+</FILTERS>
+<PROTOCOLS>
+    <Add filter="scan"/>
+</PROTOCOLS>
+</ROSETTASCRIPTS>
+
+
+

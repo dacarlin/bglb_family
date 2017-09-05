@@ -4,6 +4,9 @@ S_*.pdb
 *_thread.pdb
 slurm*
 */output_files/*
+*/output/*
+*/templates.fasta_blast/*
+*pdb.gz
 *.db3
 log.txt
 .ipynb_checkpoints

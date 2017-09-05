@@ -1,0 +1,34 @@
+<ROSETTASCRIPTS>
+<SCOREFXNS>
+    <ScoreFunction name="stage1" weights="score3" symmetric="0">
+        <Reweight scoretype="atom_pair_constraint" weight="0.5"/>
+    </ScoreFunction>
+    <ScoreFunction name="stage2" weights="score4_smooth_cart" symmetric="0">
+        <Reweight scoretype="atom_pair_constraint" weight="0.5"/>
+    </ScoreFunction>
+    <ScoreFunction name="stage3" weights="ref2015_cart" symmetric="0">
+        <Reweight scoretype="atom_pair_constraint" weight="0.5"/>
+    </ScoreFunction>
+</SCOREFXNS>
+<MOVERS>
+<Hybridize name="hybridize" stage1_scorefxn="stage1" stage2_scorefxn="stage2" fa_scorefxn="stage3" batch="1" stage1_increase_cycles="1.0" stage2_increase_cycles="1.0">
+    
+    <Template pdb="4f66A_thread.pdb" cst_file="AUTO" weight="1.0" />
+    
+    <Template pdb="3pn8A_thread.pdb" cst_file="AUTO" weight="1.0" />
+    
+    <Template pdb="4f79A_thread.pdb" cst_file="AUTO" weight="1.0" />
+    
+    <Template pdb="2xhyA_thread.pdb" cst_file="AUTO" weight="1.0" />
+    
+    <Template pdb="4gpnA_thread.pdb" cst_file="AUTO" weight="1.0" />
+     
+</Hybridize>
+<FastRelax name="relax" scorefxn="stage3" />
+</MOVERS>
+<PROTOCOLS>
+    <Add mover="hybridize"/>
+    <Add mover="relax"/>
+</PROTOCOLS>
+<OUTPUT scorefxn="stage3" />
+</ROSETTASCRIPTS>

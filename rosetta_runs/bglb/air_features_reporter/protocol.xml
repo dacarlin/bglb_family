@@ -1,0 +1,16 @@
+<ROSETTASCRIPTS>
+<SCOREFXNS>
+  <ScoreFunction name="sf" />
+</SCOREFXNS>
+<MOVERS>
+  <ReportToDB name="report" database_name="features.db3">
+    <ResidueFeatures/>
+    <InterfaceFeatures/>
+    <ScoreTypeFeatures />
+    <ResidueScoresFeatures scorefxn="sf"/>
+  </ReportToDB>
+</MOVERS>
+<PROTOCOLS>
+    <Add mover="report" /> 
+</PROTOCOLS>
+</ROSETTASCRIPTS>

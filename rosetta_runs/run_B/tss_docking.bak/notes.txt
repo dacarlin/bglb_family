@@ -1,0 +1,4 @@
+nucleophile is 380 
+acid/base is 205 
+tyr is 315 
+ligand is 482 

@@ -1,0 +1,4 @@
+-constrain_relax_to_start_coords 1 
+-s 2JIE.pdb.gz
+-ignore_unrecognized_res 1 
+-beta 

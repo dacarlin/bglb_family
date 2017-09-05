@@ -1,0 +1,2 @@
+# a single mutant
+A M 1 G

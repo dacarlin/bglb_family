@@ -1,0 +1,9 @@
+-beta 
+-default_max_cycles 200
+-nstruct 10 
+-dualspace
+-in
+    -file 
+        -fasta target.fasta
+-parser
+    -protocol hyb_protocol.xml 

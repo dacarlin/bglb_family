@@ -1,0 +1,529 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2xhy_A               -          F2NAZ1_CORGP         -           8.1e-156  523.8   6.4  1.4e-145  490.1   2.3   2.0   1   1   1   2   2   2   2 mol:protein length:479  6-PHOSPHO-BETA-GLUCOSIDASE BGLA
+2xhy_B               -          F2NAZ1_CORGP         -           8.1e-156  523.8   6.4  1.4e-145  490.1   2.3   2.0   1   1   1   2   2   2   2 mol:protein length:479  6-PHOSPHO-BETA-GLUCOSIDASE BGLA
+2xhy_C               -          F2NAZ1_CORGP         -           8.1e-156  523.8   6.4  1.4e-145  490.1   2.3   2.0   1   1   1   2   2   2   2 mol:protein length:479  6-PHOSPHO-BETA-GLUCOSIDASE BGLA
+2xhy_D               -          F2NAZ1_CORGP         -           8.1e-156  523.8   6.4  1.4e-145  490.1   2.3   2.0   1   1   1   2   2   2   2 mol:protein length:479  6-PHOSPHO-BETA-GLUCOSIDASE BGLA
+3pn8_A               -          F2NAZ1_CORGP         -           1.7e-154  519.5   8.7    2e-143  482.9   4.2   2.0   1   1   1   2   2   2   2 mol:protein length:480  Putative phospho-beta-glucosidase
+3pn8_B               -          F2NAZ1_CORGP         -           1.7e-154  519.5   8.7    2e-143  482.9   4.2   2.0   1   1   1   2   2   2   2 mol:protein length:480  Putative phospho-beta-glucosidase
+4f66_A               -          F2NAZ1_CORGP         -           1.7e-154  519.5   8.7    2e-143  482.9   4.2   2.0   1   1   1   2   2   2   2 mol:protein length:480  Putative phospho-beta-glucosidase
+4f66_B               -          F2NAZ1_CORGP         -           1.7e-154  519.5   8.7    2e-143  482.9   4.2   2.0   1   1   1   2   2   2   2 mol:protein length:480  Putative phospho-beta-glucosidase
+4f79_A               -          F2NAZ1_CORGP         -           3.9e-154  518.2   8.6  4.7e-143  481.7   4.1   2.0   1   1   1   2   2   2   2 mol:protein length:480  Putative phospho-beta-glucosidase
+4gpn_A               -          F2NAZ1_CORGP         -           3.9e-154  518.2   8.6  4.7e-143  481.7   4.1   2.0   1   1   1   2   2   2   2 mol:protein length:480  6-phospho-beta-D-Glucosidase
+4gpn_B               -          F2NAZ1_CORGP         -           3.9e-154  518.2   8.6  4.7e-143  481.7   4.1   2.0   1   1   1   2   2   2   2 mol:protein length:480  6-phospho-beta-D-Glucosidase
+3qom_A               -          F2NAZ1_CORGP         -           1.5e-150  506.4   6.6  2.9e-136  459.3   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:481  6-phospho-beta-glucosidase
+4gze_A               -          F2NAZ1_CORGP         -           1.5e-150  506.4   6.6  2.9e-136  459.3   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:481  6-phospho-beta-glucosidase
+4gze_B               -          F2NAZ1_CORGP         -           1.5e-150  506.4   6.6  2.9e-136  459.3   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:481  6-phospho-beta-glucosidase
+4gze_C               -          F2NAZ1_CORGP         -           1.5e-150  506.4   6.6  2.9e-136  459.3   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:481  6-phospho-beta-glucosidase
+4gze_D               -          F2NAZ1_CORGP         -           1.5e-150  506.4   6.6  2.9e-136  459.3   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:481  6-phospho-beta-glucosidase
+4gze_E               -          F2NAZ1_CORGP         -           1.5e-150  506.4   6.6  2.9e-136  459.3   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:481  6-phospho-beta-glucosidase
+4gze_F               -          F2NAZ1_CORGP         -           1.5e-150  506.4   6.6  2.9e-136  459.3   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:481  6-phospho-beta-glucosidase
+4ipl_A               -          F2NAZ1_CORGP         -           2.4e-142  479.4   5.0  4.7e-131  442.1   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:487  6-phospho-beta-glucosidase
+4ipl_B               -          F2NAZ1_CORGP         -           2.4e-142  479.4   5.0  4.7e-131  442.1   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:487  6-phospho-beta-glucosidase
+4ipn_B               -          F2NAZ1_CORGP         -           2.4e-142  479.4   5.0  4.7e-131  442.1   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:487  6-phospho-beta-glucosidase
+4ipn_E               -          F2NAZ1_CORGP         -           2.4e-142  479.4   5.0  4.7e-131  442.1   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:487  6-phospho-beta-glucosidase
+4ze4_A               -          F2NAZ1_CORGP         -           3.7e-102  346.8  11.7   1.4e-93  318.4   6.6   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4ze4_B               -          F2NAZ1_CORGP         -           3.7e-102  346.8  11.7   1.4e-93  318.4   6.6   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zeh_A               -          F2NAZ1_CORGP         -           3.7e-102  346.8  11.7   1.4e-93  318.4   6.6   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zeh_B               -          F2NAZ1_CORGP         -           3.7e-102  346.8  11.7   1.4e-93  318.4   6.6   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zeh_C               -          F2NAZ1_CORGP         -           3.7e-102  346.8  11.7   1.4e-93  318.4   6.6   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zeh_D               -          F2NAZ1_CORGP         -           3.7e-102  346.8  11.7   1.4e-93  318.4   6.6   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zen_A               -          F2NAZ1_CORGP         -           3.7e-102  346.8  11.7   1.4e-93  318.4   6.6   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zen_B               -          F2NAZ1_CORGP         -           3.7e-102  346.8  11.7   1.4e-93  318.4   6.6   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zep_A               -          F2NAZ1_CORGP         -           3.7e-102  346.8  11.7   1.4e-93  318.4   6.6   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zep_B               -          F2NAZ1_CORGP         -           3.7e-102  346.8  11.7   1.4e-93  318.4   6.6   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4ze5_A               -          F2NAZ1_CORGP         -           8.8e-102  345.5  11.6   3.5e-93  317.2   6.4   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4ze5_B               -          F2NAZ1_CORGP         -           8.8e-102  345.5  11.6   3.5e-93  317.2   6.4   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4ze5_C               -          F2NAZ1_CORGP         -           8.8e-102  345.5  11.6   3.5e-93  317.2   6.4   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4ze5_D               -          F2NAZ1_CORGP         -           8.8e-102  345.5  11.6   3.5e-93  317.2   6.4   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zfm_A               -          F2NAZ1_CORGP         -           8.8e-102  345.5  11.6   3.5e-93  317.2   6.4   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zfm_B               -          F2NAZ1_CORGP         -           8.8e-102  345.5  11.6   3.5e-93  317.2   6.4   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zfm_C               -          F2NAZ1_CORGP         -           8.8e-102  345.5  11.6   3.5e-93  317.2   6.4   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+4zfm_D               -          F2NAZ1_CORGP         -           8.8e-102  345.5  11.6   3.5e-93  317.2   6.4   3.0   1   1   1   2   2   2   2 mol:protein length:485  Putative 6-phospho-beta-galactobiosidase
+1tr1_A               -          F2NAZ1_CORGP         -            3.3e-64  221.6   4.9   8.6e-57  197.1   1.2   2.0   1   1   1   2   2   2   2 mol:protein length:447  BETA-GLUCOSIDASE A
+1tr1_B               -          F2NAZ1_CORGP         -            3.3e-64  221.6   4.9   8.6e-57  197.1   1.2   2.0   1   1   1   2   2   2   2 mol:protein length:447  BETA-GLUCOSIDASE A
+1tr1_C               -          F2NAZ1_CORGP         -            3.3e-64  221.6   4.9   8.6e-57  197.1   1.2   2.0   1   1   1   2   2   2   2 mol:protein length:447  BETA-GLUCOSIDASE A
+1tr1_D               -          F2NAZ1_CORGP         -            3.3e-64  221.6   4.9   8.6e-57  197.1   1.2   2.0   1   1   1   2   2   2   2 mol:protein length:447  BETA-GLUCOSIDASE A
+1uyq_A               -          F2NAZ1_CORGP         -            3.4e-64  221.5   5.0     9e-57  197.0   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:447  BETA-GLUCOSIDASE A
+1bga_A               -          F2NAZ1_CORGP         -            3.6e-64  221.5   5.0     9e-57  197.0   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:447  BETA-GLUCOSIDASE A
+1bga_B               -          F2NAZ1_CORGP         -            3.6e-64  221.5   5.0     9e-57  197.0   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:447  BETA-GLUCOSIDASE A
+1bga_C               -          F2NAZ1_CORGP         -            3.6e-64  221.5   5.0     9e-57  197.0   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:447  BETA-GLUCOSIDASE A
+1bga_D               -          F2NAZ1_CORGP         -            3.6e-64  221.5   5.0     9e-57  197.0   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:447  BETA-GLUCOSIDASE A
+1bgg_A               -          F2NAZ1_CORGP         -            3.6e-64  221.5   5.0   9.1e-57  197.0   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:448  BETA-GLUCOSIDASE A
+1bgg_B               -          F2NAZ1_CORGP         -            3.6e-64  221.5   5.0   9.1e-57  197.0   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:448  BETA-GLUCOSIDASE A
+1bgg_C               -          F2NAZ1_CORGP         -            3.6e-64  221.5   5.0   9.1e-57  197.0   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:448  BETA-GLUCOSIDASE A
+1bgg_D               -          F2NAZ1_CORGP         -            3.6e-64  221.5   5.0   9.1e-57  197.0   1.3   2.0   1   1   1   2   2   2   2 mol:protein length:448  BETA-GLUCOSIDASE A
+1e4i_A               -          F2NAZ1_CORGP         -            5.5e-64  220.8   4.7   1.5e-56  196.3   1.1   2.0   1   1   1   2   2   2   2 mol:protein length:447  BETA-GLUCOSIDASE
+1qox_A               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_B               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_C               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_D               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_E               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_F               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_G               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_H               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_I               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_J               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_K               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_L               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_M               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_N               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_O               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+1qox_P               -          F2NAZ1_CORGP         -            1.2e-62  216.5   9.0   8.6e-57  197.1   4.8   2.0   1   1   1   2   2   2   2 mol:protein length:449  BETA-GLUCOSIDASE
+4gxp_A               -          F2NAZ1_CORGP         -            1.2e-60  209.9   6.4   3.1e-55  192.0   2.1   2.1   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase Chimeric protein
+4gxp_B               -          F2NAZ1_CORGP         -            1.2e-60  209.9   6.4   3.1e-55  192.0   2.1   2.1   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase Chimeric protein
+4gxp_C               -          F2NAZ1_CORGP         -            1.2e-60  209.9   6.4   3.1e-55  192.0   2.1   2.1   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase Chimeric protein
+4ptv_A               -          F2NAZ1_CORGP         -            5.9e-60  207.6   7.3   5.4e-54  187.9   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:452  Glycoside hydrolase family 1
+4ptv_B               -          F2NAZ1_CORGP         -            5.9e-60  207.6   7.3   5.4e-54  187.9   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:452  Glycoside hydrolase family 1
+4ptw_A               -          F2NAZ1_CORGP         -            5.9e-60  207.6   7.3   5.4e-54  187.9   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:452  Glycoside hydrolase family 1
+4ptw_B               -          F2NAZ1_CORGP         -            5.9e-60  207.6   7.3   5.4e-54  187.9   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:452  Glycoside hydrolase family 1
+4ptx_A               -          F2NAZ1_CORGP         -            5.9e-60  207.6   7.3   5.4e-54  187.9   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:452  Glycoside hydrolase family 1
+4ptx_B               -          F2NAZ1_CORGP         -            5.9e-60  207.6   7.3   5.4e-54  187.9   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:452  Glycoside hydrolase family 1
+3ta9_A               -          F2NAZ1_CORGP         -            6.2e-60  207.5   7.3   5.6e-54  187.8   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:458  Glycoside hydrolase family 1
+3ta9_B               -          F2NAZ1_CORGP         -            6.2e-60  207.5   7.3   5.6e-54  187.8   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:458  Glycoside hydrolase family 1
+1od0_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+1od0_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+1oif_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE
+1oif_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE
+1oim_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+1oim_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+1oin_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+1oin_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+1uz1_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+1uz1_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+1w3j_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE
+1w3j_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE
+2cbu_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2cbu_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2cbv_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2cbv_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2ces_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2ces_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2cet_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2cet_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j75_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j75_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j77_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j77_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j78_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j78_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j79_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j79_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7b_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7b_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7c_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7c_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7d_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7d_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7e_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7e_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7f_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7f_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7g_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7g_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7h_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2j7h_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2jal_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2jal_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2vrj_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2vrj_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wbg_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wbg_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wbg_C               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wbg_D               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wc3_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wc3_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wc3_C               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wc3_D               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wc4_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wc4_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wc4_C               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+2wc4_D               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  BETA-GLUCOSIDASE A
+5n6s_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  Beta-glucosidase A
+5n6s_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  Beta-glucosidase A
+5n6s_C               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  Beta-glucosidase A
+5n6s_D               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  Beta-glucosidase A
+5n6t_A               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  Beta-glucosidase A
+5n6t_B               -          F2NAZ1_CORGP         -            2.9e-56  195.4   6.0   7.5e-51  177.5   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:468  Beta-glucosidase A
+3ahx_A               -          F2NAZ1_CORGP         -            4.6e-56  194.7   5.8   1.1e-51  180.3   3.0   2.0   1   1   1   2   2   2   2 mol:protein length:453  Beta-glucosidase A
+3ahx_B               -          F2NAZ1_CORGP         -            4.6e-56  194.7   5.8   1.1e-51  180.3   3.0   2.0   1   1   1   2   2   2   2 mol:protein length:453  Beta-glucosidase A
+3ahx_C               -          F2NAZ1_CORGP         -            4.6e-56  194.7   5.8   1.1e-51  180.3   3.0   2.0   1   1   1   2   2   2   2 mol:protein length:453  Beta-glucosidase A
+3ahx_D               -          F2NAZ1_CORGP         -            4.6e-56  194.7   5.8   1.1e-51  180.3   3.0   2.0   1   1   1   2   2   2   2 mol:protein length:453  Beta-glucosidase A
+5gnz_A               -          F2NAZ1_CORGP         -            7.6e-56  194.0   8.8   1.7e-50  176.4   3.1   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gnz_B               -          F2NAZ1_CORGP         -            7.6e-56  194.0   8.8   1.7e-50  176.4   3.1   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gnz_C               -          F2NAZ1_CORGP         -            7.6e-56  194.0   8.8   1.7e-50  176.4   3.1   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gnz_D               -          F2NAZ1_CORGP         -            7.6e-56  194.0   8.8   1.7e-50  176.4   3.1   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gnz_H               -          F2NAZ1_CORGP         -            7.6e-56  194.0   8.8   1.7e-50  176.4   3.1   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gnz_I               -          F2NAZ1_CORGP         -            7.6e-56  194.0   8.8   1.7e-50  176.4   3.1   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gnz_J               -          F2NAZ1_CORGP         -            7.6e-56  194.0   8.8   1.7e-50  176.4   3.1   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gnz_K               -          F2NAZ1_CORGP         -            7.6e-56  194.0   8.8   1.7e-50  176.4   3.1   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gny_A               -          F2NAZ1_CORGP         -            2.3e-55  192.4   9.0   5.1e-50  174.8   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gny_B               -          F2NAZ1_CORGP         -            2.3e-55  192.4   9.0   5.1e-50  174.8   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gny_C               -          F2NAZ1_CORGP         -            2.3e-55  192.4   9.0   5.1e-50  174.8   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gny_D               -          F2NAZ1_CORGP         -            2.3e-55  192.4   9.0   5.1e-50  174.8   3.3   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+3w53_A               -          F2NAZ1_CORGP         -            4.2e-55  191.6   8.9     3e-52  182.1   3.2   2.9   1   1   1   2   2   2   2 mol:protein length:506  Beta-glucosidase
+5gnx_A               -          F2NAZ1_CORGP         -            5.6e-55  191.1   8.9   1.2e-49  173.5   3.2   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+5gnx_B               -          F2NAZ1_CORGP         -            5.6e-55  191.1   8.9   1.2e-49  173.5   3.2   2.0   1   1   1   2   2   2   2 mol:protein length:467  Beta-glucosidase
+4hz6_A               -          F2NAZ1_CORGP         -            1.4e-54  189.8   5.3   7.2e-48  167.7   0.5   2.0   1   1   1   2   2   2   2 mol:protein length:444  Beta-glucosidase
+4hz7_A               -          F2NAZ1_CORGP         -            1.4e-54  189.8   5.3   7.2e-48  167.7   0.5   2.0   1   1   1   2   2   2   2 mol:protein length:444  beta-glucosidase
+4hz8_A               -          F2NAZ1_CORGP         -            1.4e-54  189.8   5.3   7.2e-48  167.7   0.5   2.0   1   1   1   2   2   2   2 mol:protein length:444  Beta-glucosidase
+3cmj_A               -          F2NAZ1_CORGP         -            1.7e-54  189.5   5.3   8.5e-48  167.4   0.5   2.0   1   1   1   2   2   2   2 mol:protein length:465  Beta-glucosidase
+5idi_A               -          F2NAZ1_CORGP         -              9e-54  187.1   6.4   2.2e-48  169.4   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:452  1,4-beta-D-glucan glucohydrolase
+5idi_B               -          F2NAZ1_CORGP         -              9e-54  187.1   6.4   2.2e-48  169.4   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:452  1,4-beta-D-glucan glucohydrolase
+1gnx_A               -          F2NAZ1_CORGP         -            8.5e-52  180.6   9.2   7.3e-46  161.1   3.9   2.5   1   1   1   2   2   2   2 mol:protein length:479  BETA-GLUCOSIDASE
+1gnx_B               -          F2NAZ1_CORGP         -            8.5e-52  180.6   9.2   7.3e-46  161.1   3.9   2.5   1   1   1   2   2   2   2 mol:protein length:479  BETA-GLUCOSIDASE
+1gon_A               -          F2NAZ1_CORGP         -            8.5e-52  180.6   9.2   7.3e-46  161.1   3.9   2.5   1   1   1   2   2   2   2 mol:protein length:479  BETA-GLUCOSIDASE
+1gon_B               -          F2NAZ1_CORGP         -            8.5e-52  180.6   9.2   7.3e-46  161.1   3.9   2.5   1   1   1   2   2   2   2 mol:protein length:479  BETA-GLUCOSIDASE
+4bce_A               -          F2NAZ1_CORGP         -            1.3e-50  176.8   5.4   3.6e-47  165.4   1.8   2.0   1   1   1   2   2   2   2 mol:protein length:437  BETA-GLUCOSIDASE
+4bce_B               -          F2NAZ1_CORGP         -            1.3e-50  176.8   5.4   3.6e-47  165.4   1.8   2.0   1   1   1   2   2   2   2 mol:protein length:437  BETA-GLUCOSIDASE
+4bce_C               -          F2NAZ1_CORGP         -            1.3e-50  176.8   5.4   3.6e-47  165.4   1.8   2.0   1   1   1   2   2   2   2 mol:protein length:437  BETA-GLUCOSIDASE
+1ug6_A               -          F2NAZ1_CORGP         -            2.6e-50  175.7   5.5   7.6e-47  164.3   1.9   2.0   1   1   1   2   2   2   2 mol:protein length:431  beta-glycosidase
+3zjk_A               -          F2NAZ1_CORGP         -            4.7e-50  174.9   5.2   1.4e-46  163.4   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:431  BETA GLYCOSIDASE
+3zjk_B               -          F2NAZ1_CORGP         -            4.7e-50  174.9   5.2   1.4e-46  163.4   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:431  BETA GLYCOSIDASE
+3zjk_C               -          F2NAZ1_CORGP         -            4.7e-50  174.9   5.2   1.4e-46  163.4   1.7   2.0   1   1   1   2   2   2   2 mol:protein length:431  BETA GLYCOSIDASE
+1np2_A               -          F2NAZ1_CORGP         -            2.4e-48  169.2   6.0   6.6e-45  157.9   2.3   2.0   1   1   1   2   2   2   2 mol:protein length:436  beta-glycosidase
+1np2_B               -          F2NAZ1_CORGP         -            2.4e-48  169.2   6.0   6.6e-45  157.9   2.3   2.0   1   1   1   2   2   2   2 mol:protein length:436  beta-glycosidase
+5ayb_A               -          F2NAZ1_CORGP         -            7.1e-48  167.7   5.4   6.2e-42  148.1   2.3   2.0   1   1   1   2   2   2   2 mol:protein length:457  BETA-GLUCOSIDASE
+5ayi_A               -          F2NAZ1_CORGP         -            8.4e-48  167.5   5.2   7.5e-42  147.8   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:457  BETA-GLUCOSIDASE
+3wh5_A               -          F2NAZ1_CORGP         -            1.2e-47  167.0   5.2   1.1e-41  147.3   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:457  beta-glucosidase
+3wh6_A               -          F2NAZ1_CORGP         -            1.2e-47  167.0   5.2   1.1e-41  147.3   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:457  beta-glucosidase
+3wh7_A               -          F2NAZ1_CORGP         -            1.2e-47  167.0   5.2   1.1e-41  147.3   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:457  beta-glucosidase
+3wh8_A               -          F2NAZ1_CORGP         -            1.2e-47  167.0   5.2   1.1e-41  147.3   2.1   2.0   1   1   1   2   2   2   2 mol:protein length:457  beta-glucosidase
+3gno_A               -          F2NAZ1_CORGP         -            4.2e-46  161.9   7.9     2e-39  139.8   2.9   3.0   1   1   1   2   2   2   2 mol:protein length:488  Os03g0212800 protein
+3gnp_A               -          F2NAZ1_CORGP         -            4.2e-46  161.9   7.9     2e-39  139.8   2.9   3.0   1   1   1   2   2   2   2 mol:protein length:488  Os03g0212800 protein
+3gnr_A               -          F2NAZ1_CORGP         -            4.2e-46  161.9   7.9     2e-39  139.8   2.9   3.0   1   1   1   2   2   2   2 mol:protein length:488  Os03g0212800 protein
+3wba_A               -          F2NAZ1_CORGP         -            9.1e-46  160.8   7.6   4.5e-39  138.7   2.7   3.0   1   1   1   2   2   2   2 mol:protein length:489  Beta-glucosidase 6
+3wbe_A               -          F2NAZ1_CORGP         -            9.1e-46  160.8   7.6   4.5e-39  138.7   2.7   3.0   1   1   1   2   2   2   2 mol:protein length:489  Beta-glucosidase 6
+4re2_A               -          F2NAZ1_CORGP         -            1.8e-45  159.8   9.9   6.8e-43  151.3   6.1   2.2   1   1   1   2   2   2   2 mol:protein length:503  Beta-mannosidase/beta-glucosidase
+4re3_A               -          F2NAZ1_CORGP         -            1.8e-45  159.8   9.9   6.8e-43  151.3   6.1   2.2   1   1   1   2   2   2   2 mol:protein length:503  Beta-mannosidase/beta-glucosidase
+4re4_A               -          F2NAZ1_CORGP         -            1.8e-45  159.8   9.9   6.8e-43  151.3   6.1   2.2   1   1   1   2   2   2   2 mol:protein length:503  Beta-mannosidase/beta-glucosidase
+4jho_A               -          F2NAZ1_CORGP         -            1.8e-45  159.8   9.9   6.8e-43  151.3   6.1   2.1   1   1   1   2   2   2   2 mol:protein length:503  Beta-mannosidase/beta-glucosidase
+4jie_A               -          F2NAZ1_CORGP         -            1.8e-45  159.8   9.9   6.8e-43  151.3   6.1   2.1   1   1   1   2   2   2   2 mol:protein length:503  Beta-mannosidase/beta-glucosidase
+5dt5_A               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+5dt5_B               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+5dt5_C               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+5dt5_D               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+5dt5_E               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+5dt5_F               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+5dt5_G               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+5dt5_H               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+5dt7_A               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+5dt7_B               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+5dt7_C               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+5dt7_D               -          F2NAZ1_CORGP         -            7.7e-45  157.7   8.9   2.1e-44  156.3   5.9   2.0   1   1   1   2   2   2   1 mol:protein length:471  Beta-glucosidase
+2o9r_A               -          F2NAZ1_CORGP         -              2e-44  156.3   5.4   7.6e-44  154.4   1.5   2.0   1   1   1   2   2   2   1 mol:protein length:452  Beta-glucosidase B
+2o9p_A               -          F2NAZ1_CORGP         -              2e-44  156.3   5.4   7.7e-44  154.4   1.5   2.0   1   1   1   2   2   2   1 mol:protein length:454  Beta-glucosidase B
+2o9t_A               -          F2NAZ1_CORGP         -              2e-44  156.3   5.4   7.7e-44  154.4   1.5   2.0   1   1   1   2   2   2   1 mol:protein length:454  Beta-glucosidase B
+2z1s_A               -          F2NAZ1_CORGP         -              2e-44  156.3   5.4   7.7e-44  154.4   1.5   2.0   1   1   1   2   2   2   1 mol:protein length:454  Beta-glucosidase B
+2jie_A               -          F2NAZ1_CORGP         -            2.1e-44  156.3   5.8     7e-44  154.5   1.9   2.0   1   1   1   2   2   2   1 mol:protein length:454  BETA-GLUCOSIDASE B
+2pbg_A               -          F2NAZ1_CORGP         -            3.3e-44  155.6  16.1   8.8e-26   94.8   1.3   3.0   2   1   1   3   3   3   3 mol:protein length:468  6-PHOSPHO-BETA-D-GALACTOSIDASE
+1pbg_A               -          F2NAZ1_CORGP         -            7.9e-44  154.4  17.4   6.2e-40  141.5  13.0   3.0   1   1   1   2   2   2   2 mol:protein length:468  6-PHOSPHO-BETA-D-GALACTOSIDASE
+1pbg_B               -          F2NAZ1_CORGP         -            7.9e-44  154.4  17.4   6.2e-40  141.5  13.0   3.0   1   1   1   2   2   2   2 mol:protein length:468  6-PHOSPHO-BETA-D-GALACTOSIDASE
+3pbg_A               -          F2NAZ1_CORGP         -            7.9e-44  154.4  17.4   6.2e-40  141.5  13.0   3.0   1   1   1   2   2   2   2 mol:protein length:468  6-PHOSPHO-BETA-D-GALACTOSIDASE
+3pbg_B               -          F2NAZ1_CORGP         -            7.9e-44  154.4  17.4   6.2e-40  141.5  13.0   3.0   1   1   1   2   2   2   2 mol:protein length:468  6-PHOSPHO-BETA-D-GALACTOSIDASE
+3aiu_A               -          F2NAZ1_CORGP         -            1.7e-43  153.3   8.7   1.3e-38  137.1   5.1   2.8   1   1   1   2   2   2   2 mol:protein length:564  Beta-glucosidase
+3aiv_A               -          F2NAZ1_CORGP         -            1.7e-43  153.3   8.7   1.3e-38  137.1   5.1   2.8   1   1   1   2   2   2   2 mol:protein length:564  Beta-glucosidase
+3aiw_A               -          F2NAZ1_CORGP         -            1.7e-43  153.3   8.7   1.3e-38  137.1   5.1   2.8   1   1   1   2   2   2   2 mol:protein length:564  Beta-glucosidase
+4b3k_A               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+4b3k_B               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+4b3k_C               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+4b3k_D               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+4b3k_E               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+4b3k_F               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+4b3l_A               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+4b3l_B               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+4b3l_C               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+4b3l_D               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+4b3l_E               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+4b3l_F               -          F2NAZ1_CORGP         -            3.9e-43  152.1   6.9   4.8e-41  145.2   3.0   2.1   2   0   0   2   2   2   1 mol:protein length:479  BETA-GLUCOSIDASE
+5foo_A               -          F2NAZ1_CORGP         -            5.1e-43  151.7   7.2   6.3e-41  144.8   3.2   2.1   2   0   0   2   2   2   1 mol:protein length:480  6-PHOSPHO-BETA-D GLYCOSIDASE
+5foo_B               -          F2NAZ1_CORGP         -            5.1e-43  151.7   7.2   6.3e-41  144.8   3.2   2.1   2   0   0   2   2   2   1 mol:protein length:480  6-PHOSPHO-BETA-D GLYCOSIDASE
+5foo_C               -          F2NAZ1_CORGP         -            5.1e-43  151.7   7.2   6.3e-41  144.8   3.2   2.1   2   0   0   2   2   2   1 mol:protein length:480  6-PHOSPHO-BETA-D GLYCOSIDASE
+5foo_D               -          F2NAZ1_CORGP         -            5.1e-43  151.7   7.2   6.3e-41  144.8   3.2   2.1   2   0   0   2   2   2   1 mol:protein length:480  6-PHOSPHO-BETA-D GLYCOSIDASE
+5foo_E               -          F2NAZ1_CORGP         -            5.1e-43  151.7   7.2   6.3e-41  144.8   3.2   2.1   2   0   0   2   2   2   1 mol:protein length:480  6-PHOSPHO-BETA-D GLYCOSIDASE
+5foo_F               -          F2NAZ1_CORGP         -            5.1e-43  151.7   7.2   6.3e-41  144.8   3.2   2.1   2   0   0   2   2   2   1 mol:protein length:480  6-PHOSPHO-BETA-D GLYCOSIDASE
+2rgl_A               -          F2NAZ1_CORGP         -            8.2e-43  151.0   6.1   9.3e-42  147.5   3.2   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+2rgl_B               -          F2NAZ1_CORGP         -            8.2e-43  151.0   6.1   9.3e-42  147.5   3.2   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+2rgm_A               -          F2NAZ1_CORGP         -            8.2e-43  151.0   6.1   9.3e-42  147.5   3.2   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+2rgm_B               -          F2NAZ1_CORGP         -            8.2e-43  151.0   6.1   9.3e-42  147.5   3.2   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+4pbg_A               -          F2NAZ1_CORGP         -            1.3e-42  150.4  17.3     1e-38  137.5  12.8   3.0   1   1   1   2   2   2   2 mol:protein length:468  6-PHOSPHO-BETA-D-GALACTOSIDASE
+4pbg_B               -          F2NAZ1_CORGP         -            1.3e-42  150.4  17.3     1e-38  137.5  12.8   3.0   1   1   1   2   2   2   2 mol:protein length:468  6-PHOSPHO-BETA-D-GALACTOSIDASE
+4qll_A               -          F2NAZ1_CORGP         -            1.5e-42  150.2   6.2   1.7e-41  146.7   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+4qll_B               -          F2NAZ1_CORGP         -            1.5e-42  150.2   6.2   1.7e-41  146.7   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+4qlj_A               -          F2NAZ1_CORGP         -            1.8e-42  149.9   6.1   2.2e-41  146.3   3.2   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+4qlj_B               -          F2NAZ1_CORGP         -            1.8e-42  149.9   6.1   2.2e-41  146.3   3.2   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3aht_A               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3aht_B               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3ahv_A               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3ahv_B               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3f4v_A               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+3f4v_B               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+3f5j_A               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+3f5j_B               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+3f5k_A               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+3f5k_B               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+3f5l_A               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+3f5l_B               -          F2NAZ1_CORGP         -              2e-42  149.8   5.9   2.2e-41  146.3   3.1   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase
+5cg0_A               -          F2NAZ1_CORGP         -            2.9e-42  149.2   7.2   2.9e-26   96.4   0.1   3.0   2   1   1   3   3   3   3 mol:protein length:489  Beta-glucosidase
+5cg0_B               -          F2NAZ1_CORGP         -            2.9e-42  149.2   7.2   2.9e-26   96.4   0.1   3.0   2   1   1   3   3   3   3 mol:protein length:489  Beta-glucosidase
+5cg0_C               -          F2NAZ1_CORGP         -            2.9e-42  149.2   7.2   2.9e-26   96.4   0.1   3.0   2   1   1   3   3   3   3 mol:protein length:489  Beta-glucosidase
+5cg0_D               -          F2NAZ1_CORGP         -            2.9e-42  149.2   7.2   2.9e-26   96.4   0.1   3.0   2   1   1   3   3   3   3 mol:protein length:489  Beta-glucosidase
+5cg0_E               -          F2NAZ1_CORGP         -            2.9e-42  149.2   7.2   2.9e-26   96.4   0.1   3.0   2   1   1   3   3   3   3 mol:protein length:489  Beta-glucosidase
+5cg0_F               -          F2NAZ1_CORGP         -            2.9e-42  149.2   7.2   2.9e-26   96.4   0.1   3.0   2   1   1   3   3   3   3 mol:protein length:489  Beta-glucosidase
+3scn_A               -          F2NAZ1_CORGP         -            3.3e-42  149.0   6.3   3.6e-41  145.6   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scn_B               -          F2NAZ1_CORGP         -            3.3e-42  149.0   6.3   3.6e-41  145.6   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3sco_A               -          F2NAZ1_CORGP         -            3.3e-42  149.0   6.3   3.6e-41  145.6   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3sco_B               -          F2NAZ1_CORGP         -            3.3e-42  149.0   6.3   3.6e-41  145.6   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3sct_A               -          F2NAZ1_CORGP         -            3.3e-42  149.0   6.3   3.6e-41  145.6   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3sct_B               -          F2NAZ1_CORGP         -            3.3e-42  149.0   6.3   3.6e-41  145.6   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scu_A               -          F2NAZ1_CORGP         -            3.3e-42  149.0   6.3   3.6e-41  145.6   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scu_B               -          F2NAZ1_CORGP         -            3.3e-42  149.0   6.3   3.6e-41  145.6   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scr_A               -          F2NAZ1_CORGP         -            3.7e-42  148.8   6.3     4e-41  145.4   3.5   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scr_B               -          F2NAZ1_CORGP         -            3.7e-42  148.8   6.3     4e-41  145.4   3.5   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scs_A               -          F2NAZ1_CORGP         -            3.7e-42  148.8   6.3     4e-41  145.4   3.5   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scs_B               -          F2NAZ1_CORGP         -            3.7e-42  148.8   6.3     4e-41  145.4   3.5   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3wq4_A               -          F2NAZ1_CORGP         -            4.2e-42  148.7   6.9   2.5e-26   96.6   0.4   3.0   2   1   1   3   3   3   3 mol:protein length:507  Beta-primeverosidase
+3wq4_B               -          F2NAZ1_CORGP         -            4.2e-42  148.7   6.9   2.5e-26   96.6   0.4   3.0   2   1   1   3   3   3   3 mol:protein length:507  Beta-primeverosidase
+3wq5_A               -          F2NAZ1_CORGP         -            4.2e-42  148.7   6.9   2.5e-26   96.6   0.4   3.0   2   1   1   3   3   3   3 mol:protein length:507  Beta-primeverosidase
+3wq5_B               -          F2NAZ1_CORGP         -            4.2e-42  148.7   6.9   2.5e-26   96.6   0.4   3.0   2   1   1   3   3   3   3 mol:protein length:507  Beta-primeverosidase
+3wq6_A               -          F2NAZ1_CORGP         -            4.2e-42  148.7   6.9   2.5e-26   96.6   0.4   3.0   2   1   1   3   3   3   3 mol:protein length:507  beta-primeverosidase
+3wq6_B               -          F2NAZ1_CORGP         -            4.2e-42  148.7   6.9   2.5e-26   96.6   0.4   3.0   2   1   1   3   3   3   3 mol:protein length:507  beta-primeverosidase
+3scv_A               -          F2NAZ1_CORGP         -            4.5e-42  148.6   6.2     5e-41  145.1   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scv_B               -          F2NAZ1_CORGP         -            4.5e-42  148.6   6.2     5e-41  145.1   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+1v02_E               -          F2NAZ1_CORGP         -            5.2e-42  148.3   4.9   2.8e-25   93.2   0.1   3.1   2   1   1   3   3   3   3 mol:protein length:565  DHURRINASE
+3scp_A               -          F2NAZ1_CORGP         -            5.8e-42  148.2   6.6   6.4e-41  144.8   3.8   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scp_B               -          F2NAZ1_CORGP         -            5.8e-42  148.2   6.6   6.4e-41  144.8   3.8   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scq_A               -          F2NAZ1_CORGP         -            5.8e-42  148.2   6.6   6.4e-41  144.8   3.8   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scq_B               -          F2NAZ1_CORGP         -            5.8e-42  148.2   6.6   6.4e-41  144.8   3.8   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+4qlk_A               -          F2NAZ1_CORGP         -            5.8e-42  148.2   6.1   6.8e-41  144.7   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+4qlk_B               -          F2NAZ1_CORGP         -            5.8e-42  148.2   6.1   6.8e-41  144.7   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3ahy_A               -          F2NAZ1_CORGP         -            5.8e-42  148.2   4.7   1.5e-38  137.0   1.8   2.1   1   1   1   2   2   2   2 mol:protein length:473  Beta-glucosidase
+3ahy_B               -          F2NAZ1_CORGP         -            5.8e-42  148.2   4.7   1.5e-38  137.0   1.8   2.1   1   1   1   2   2   2   2 mol:protein length:473  Beta-glucosidase
+3ahy_C               -          F2NAZ1_CORGP         -            5.8e-42  148.2   4.7   1.5e-38  137.0   1.8   2.1   1   1   1   2   2   2   2 mol:protein length:473  Beta-glucosidase
+3ahy_D               -          F2NAZ1_CORGP         -            5.8e-42  148.2   4.7   1.5e-38  137.0   1.8   2.1   1   1   1   2   2   2   2 mol:protein length:473  Beta-glucosidase
+1v03_A               -          F2NAZ1_CORGP         -            7.5e-42  147.8   5.1   3.5e-25   92.8   0.1   3.1   2   1   1   3   3   3   3 mol:protein length:565  DHURRINASE
+3scw_A               -          F2NAZ1_CORGP         -            7.8e-42  147.8   6.1   9.2e-41  144.2   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+3scw_B               -          F2NAZ1_CORGP         -            7.8e-42  147.8   6.1   9.2e-41  144.2   3.3   2.2   1   1   1   2   2   2   1 mol:protein length:481  Beta-glucosidase 7
+5bwf_A               -          F2NAZ1_CORGP         -            1.8e-41  146.6   3.9     3e-38  135.9   1.1   2.1   1   1   1   2   2   2   2 mol:protein length:485  Beta-1,4-glucosidase
+5bwf_B               -          F2NAZ1_CORGP         -            1.8e-41  146.6   3.9     3e-38  135.9   1.1   2.1   1   1   1   2   2   2   2 mol:protein length:485  Beta-1,4-glucosidase
+1v02_A               -          F2NAZ1_CORGP         -            3.5e-41  145.6   5.0   1.8e-24   90.5   0.1   3.1   2   1   1   3   3   3   3 mol:protein length:565  DHURRINASE
+1v02_B               -          F2NAZ1_CORGP         -            3.5e-41  145.6   5.0   1.8e-24   90.5   0.1   3.1   2   1   1   3   3   3   3 mol:protein length:565  DHURRINASE
+1v02_C               -          F2NAZ1_CORGP         -            3.5e-41  145.6   5.0   1.8e-24   90.5   0.1   3.1   2   1   1   3   3   3   3 mol:protein length:565  DHURRINASE
+1v02_D               -          F2NAZ1_CORGP         -            3.5e-41  145.6   5.0   1.8e-24   90.5   0.1   3.1   2   1   1   3   3   3   3 mol:protein length:565  DHURRINASE
+1v02_F               -          F2NAZ1_CORGP         -            3.5e-41  145.6   5.0   1.8e-24   90.5   0.1   3.1   2   1   1   3   3   3   3 mol:protein length:565  DHURRINASE
+1wcg_A               -          F2NAZ1_CORGP         -            1.1e-40  144.0   3.9   2.4e-36  129.6   1.1   2.0   1   1   1   2   2   2   2 mol:protein length:464  THIOGLUCOSIDASE
+1wcg_B               -          F2NAZ1_CORGP         -            1.1e-40  144.0   3.9   2.4e-36  129.6   1.1   2.0   1   1   1   2   2   2   2 mol:protein length:464  THIOGLUCOSIDASE
+2dga_A               -          F2NAZ1_CORGP         -            1.5e-40  143.5   6.7   1.2e-35  127.3   3.4   2.7   1   1   1   2   2   2   2 mol:protein length:565  Beta-glucosidase
+3aiq_A               -          F2NAZ1_CORGP         -            1.5e-40  143.5   6.7   1.2e-35  127.3   3.4   2.7   1   1   1   2   2   2   2 mol:protein length:565  Beta-glucosidase
+3air_A               -          F2NAZ1_CORGP         -            1.5e-40  143.5   6.7   1.2e-35  127.3   3.4   2.7   1   1   1   2   2   2   2 mol:protein length:565  Beta-glucosidase
+2e3z_A               -          F2NAZ1_CORGP         -            1.7e-40  143.3   8.3     2e-38  136.5   5.4   2.1   1   1   1   2   2   2   1 mol:protein length:465  Beta-glucosidase
+2e3z_B               -          F2NAZ1_CORGP         -            1.7e-40  143.3   8.3     2e-38  136.5   5.4   2.1   1   1   1   2   2   2   1 mol:protein length:465  Beta-glucosidase
+2e40_A               -          F2NAZ1_CORGP         -            1.7e-40  143.3   8.3     2e-38  136.5   5.4   2.1   1   1   1   2   2   2   1 mol:protein length:465  Beta-glucosidase
+2e40_B               -          F2NAZ1_CORGP         -            1.7e-40  143.3   8.3     2e-38  136.5   5.4   2.1   1   1   1   2   2   2   1 mol:protein length:465  Beta-glucosidase
+3ais_A               -          F2NAZ1_CORGP         -              1e-39  140.8   7.0   8.7e-35  124.5   3.7   2.8   1   1   1   2   2   2   2 mol:protein length:565  Beta-glucosidase
+3ahz_A               -          F2NAZ1_CORGP         -            2.4e-39  139.6   6.0   1.4e-26   97.5   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+3vif_A               -          F2NAZ1_CORGP         -            2.4e-39  139.6   6.0   1.4e-26   97.5   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+3vig_A               -          F2NAZ1_CORGP         -            2.4e-39  139.6   6.0   1.4e-26   97.5   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+3vih_A               -          F2NAZ1_CORGP         -            2.4e-39  139.6   6.0   1.4e-26   97.5   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+3vii_A               -          F2NAZ1_CORGP         -            2.4e-39  139.6   6.0   1.4e-26   97.5   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+3ai0_A               -          F2NAZ1_CORGP         -            5.7e-39  138.3   6.0   3.3e-26   96.2   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  beta-glucosidase
+3vim_A               -          F2NAZ1_CORGP         -            5.7e-39  138.3   6.0   3.3e-26   96.2   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+3vin_A               -          F2NAZ1_CORGP         -            5.7e-39  138.3   6.0   3.3e-26   96.2   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+3vio_A               -          F2NAZ1_CORGP         -            5.7e-39  138.3   6.0   3.3e-26   96.2   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+3vip_A               -          F2NAZ1_CORGP         -            5.7e-39  138.3   6.0   3.3e-26   96.2   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+3vik_A               -          F2NAZ1_CORGP         -            8.4e-39  137.8   5.9     5e-26   95.6   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+3vil_A               -          F2NAZ1_CORGP         -            8.4e-39  137.8   5.9     5e-26   95.6   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+3vij_A               -          F2NAZ1_CORGP         -            1.3e-38  137.1   6.3   6.5e-26   95.3   0.1   3.5   2   1   2   4   4   3   3 mol:protein length:487  Beta-glucosidase
+2jf6_A               -          F2NAZ1_CORGP         -            4.3e-38  135.4   8.7   1.9e-36  130.0   4.2   2.5   1   1   1   2   2   2   1 mol:protein length:532  STRICTOSIDINE-O-BETA-D-GLUCOSIDASE
+2jf6_B               -          F2NAZ1_CORGP         -            4.3e-38  135.4   8.7   1.9e-36  130.0   4.2   2.5   1   1   1   2   2   2   1 mol:protein length:532  STRICTOSIDINE-O-BETA-D-GLUCOSIDASE
+2jf7_A               -          F2NAZ1_CORGP         -            4.3e-38  135.4   8.7   1.9e-36  130.0   4.2   2.5   1   1   1   2   2   2   1 mol:protein length:532  STRICTOSIDINE-O-BETA-D-GLUCOSIDASE
+2jf7_B               -          F2NAZ1_CORGP         -            4.3e-38  135.4   8.7   1.9e-36  130.0   4.2   2.5   1   1   1   2   2   2   1 mol:protein length:532  STRICTOSIDINE-O-BETA-D-GLUCOSIDASE
+3zj7_A               -          F2NAZ1_CORGP         -            4.3e-38  135.4   8.7   1.9e-36  130.0   4.2   2.5   1   1   1   2   2   2   1 mol:protein length:532  STRICTOSIDINE-O-BETA-D-GLUCOSIDASE
+3zj7_B               -          F2NAZ1_CORGP         -            4.3e-38  135.4   8.7   1.9e-36  130.0   4.2   2.5   1   1   1   2   2   2   1 mol:protein length:532  STRICTOSIDINE-O-BETA-D-GLUCOSIDASE
+3zj8_A               -          F2NAZ1_CORGP         -            4.3e-38  135.4   8.7   1.9e-36  130.0   4.2   2.5   1   1   1   2   2   2   1 mol:protein length:532  STRICTOSIDINE-O-BETA-D-GLUCOSIDASE
+3zj8_B               -          F2NAZ1_CORGP         -            4.3e-38  135.4   8.7   1.9e-36  130.0   4.2   2.5   1   1   1   2   2   2   1 mol:protein length:532  STRICTOSIDINE-O-BETA-D-GLUCOSIDASE
+2e9l_A               -          F2NAZ1_CORGP         -            4.8e-38  135.3   5.4   6.3e-34  121.7   0.2   2.1   1   1   1   2   2   2   2 mol:protein length:469  Cytosolic beta-glucosidase
+2e9m_A               -          F2NAZ1_CORGP         -            4.8e-38  135.3   5.4   6.3e-34  121.7   0.2   2.1   1   1   1   2   2   2   2 mol:protein length:469  Cytosolic beta-glucosidase
+2zox_A               -          F2NAZ1_CORGP         -            1.1e-37  134.1   5.3   1.6e-33  120.3   0.2   2.1   1   1   1   2   2   2   2 mol:protein length:469  Cytosolic beta-glucosidase
+3vkk_A               -          F2NAZ1_CORGP         -            1.1e-37  134.1   5.3   1.6e-33  120.3   0.2   2.1   1   1   1   2   2   2   2 mol:protein length:469  Cytosolic beta-glucosidase
+2jfe_X               -          F2NAZ1_CORGP         -            1.3e-37  133.8   5.6   1.6e-33  120.3   0.3   2.1   1   1   1   2   2   2   2 mol:protein length:469  CYTOSOLIC BETA-GLUCOSIDASE
+1hxj_A               -          F2NAZ1_CORGP         -            5.5e-37  131.8   6.5   2.8e-20   76.6   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:507  BETA-GLUCOSIDASE
+1hxj_B               -          F2NAZ1_CORGP         -            5.5e-37  131.8   6.5   2.8e-20   76.6   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:507  BETA-GLUCOSIDASE
+1e1e_A               -          F2NAZ1_CORGP         -            5.7e-37  131.7   6.5   2.9e-20   76.6   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1e1e_B               -          F2NAZ1_CORGP         -            5.7e-37  131.7   6.5   2.9e-20   76.6   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1e1f_A               -          F2NAZ1_CORGP         -            5.7e-37  131.7   6.5   2.9e-20   76.6   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1e1f_B               -          F2NAZ1_CORGP         -            5.7e-37  131.7   6.5   2.9e-20   76.6   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1h49_A               -          F2NAZ1_CORGP         -              1e-36  130.9   6.3   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1h49_B               -          F2NAZ1_CORGP         -              1e-36  130.9   6.3   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1e4l_A               -          F2NAZ1_CORGP         -            1.4e-36  130.4   6.5   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE, CHLOROPLASTIC
+1e4l_B               -          F2NAZ1_CORGP         -            1.4e-36  130.4   6.5   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE, CHLOROPLASTIC
+1e4n_A               -          F2NAZ1_CORGP         -            1.4e-36  130.4   6.5   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1e4n_B               -          F2NAZ1_CORGP         -            1.4e-36  130.4   6.5   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1e55_A               -          F2NAZ1_CORGP         -            1.4e-36  130.4   6.5   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1e55_B               -          F2NAZ1_CORGP         -            1.4e-36  130.4   6.5   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1e56_A               -          F2NAZ1_CORGP         -            1.4e-36  130.4   6.5   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1e56_B               -          F2NAZ1_CORGP         -            1.4e-36  130.4   6.5   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1v08_A               -          F2NAZ1_CORGP         -            1.4e-36  130.4   6.5   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+1v08_B               -          F2NAZ1_CORGP         -            1.4e-36  130.4   6.5   6.9e-20   75.4   0.2   3.1   2   1   1   3   3   3   3 mol:protein length:512  BETA-GLUCOSIDASE
+3ptk_A               -          F2NAZ1_CORGP         -              4e-36  128.9   8.0     1e-31  114.4   2.8   3.1   1   1   1   2   2   2   2 mol:protein length:505  Beta-glucosidase Os4BGlu12
+3ptk_B               -          F2NAZ1_CORGP         -              4e-36  128.9   8.0     1e-31  114.4   2.8   3.1   1   1   1   2   2   2   2 mol:protein length:505  Beta-glucosidase Os4BGlu12
+3ptm_A               -          F2NAZ1_CORGP         -              4e-36  128.9   8.0     1e-31  114.4   2.8   3.1   1   1   1   2   2   2   2 mol:protein length:505  Beta-glucosidase Os4BGlu12
+3ptm_B               -          F2NAZ1_CORGP         -              4e-36  128.9   8.0     1e-31  114.4   2.8   3.1   1   1   1   2   2   2   2 mol:protein length:505  Beta-glucosidase Os4BGlu12
+3ptq_A               -          F2NAZ1_CORGP         -              4e-36  128.9   8.0     1e-31  114.4   2.8   3.1   1   1   1   2   2   2   2 mol:protein length:505  Beta-glucosidase Os4BGlu12
+3ptq_B               -          F2NAZ1_CORGP         -              4e-36  128.9   8.0     1e-31  114.4   2.8   3.1   1   1   1   2   2   2   2 mol:protein length:505  Beta-glucosidase Os4BGlu12
+4mdo_A               -          F2NAZ1_CORGP         -            1.5e-35  127.0   4.4   8.1e-32  114.7   1.5   2.2   1   1   1   2   2   2   2 mol:protein length:499  Beta-glucosidase
+4mdp_A               -          F2NAZ1_CORGP         -            1.5e-35  127.0   4.4   8.1e-32  114.7   1.5   2.2   1   1   1   2   2   2   2 mol:protein length:499  Beta-glucosidase
+1cbg_A               -          F2NAZ1_CORGP         -            3.5e-35  125.8   7.3   1.5e-30  110.6   3.1   2.8   1   1   1   2   2   2   2 mol:protein length:490  CYANOGENIC BETA-GLUCOSIDASE
+3zj6_A               -          F2NAZ1_CORGP         -            2.1e-33  120.0   9.4   5.5e-24   88.9   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:540  RAUCAFFRICINE-O-BETA-D-GLUCOSIDASE
+3zj6_B               -          F2NAZ1_CORGP         -            2.1e-33  120.0   9.4   5.5e-24   88.9   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:540  RAUCAFFRICINE-O-BETA-D-GLUCOSIDASE
+4a3y_A               -          F2NAZ1_CORGP         -            2.1e-33  120.0   9.4   5.5e-24   88.9   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:540  RAUCAFFRICINE-O-BETA-D-GLUCOSIDASE
+4a3y_B               -          F2NAZ1_CORGP         -            2.1e-33  120.0   9.4   5.5e-24   88.9   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:540  RAUCAFFRICINE-O-BETA-D-GLUCOSIDASE
+4atd_A               -          F2NAZ1_CORGP         -            2.1e-33  119.9   9.3   5.3e-24   88.9   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  RAUCAFFRICINE-O-BETA-D-GLUCOSIDASE
+4atd_B               -          F2NAZ1_CORGP         -            2.1e-33  119.9   9.3   5.3e-24   88.9   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  RAUCAFFRICINE-O-BETA-D-GLUCOSIDASE
+4atl_A               -          F2NAZ1_CORGP         -            2.1e-33  119.9   9.3   5.3e-24   88.9   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  RAUCAFFRICINE-O-BETA-D-GLUCOSIDASE
+4atl_B               -          F2NAZ1_CORGP         -            2.1e-33  119.9   9.3   5.3e-24   88.9   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  RAUCAFFRICINE-O-BETA-D-GLUCOSIDASE
+3u57_A               -          F2NAZ1_CORGP         -            4.6e-33  118.8   9.1   1.3e-23   87.7   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  Raucaffricine-O-beta-D-glucosidase
+3u57_B               -          F2NAZ1_CORGP         -            4.6e-33  118.8   9.1   1.3e-23   87.7   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  Raucaffricine-O-beta-D-glucosidase
+3u5u_A               -          F2NAZ1_CORGP         -            4.6e-33  118.8   9.1   1.3e-23   87.7   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  Raucaffricine-O-beta-D-glucosidase
+3u5u_B               -          F2NAZ1_CORGP         -            4.6e-33  118.8   9.1   1.3e-23   87.7   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  Raucaffricine-O-beta-D-glucosidase
+3u5y_A               -          F2NAZ1_CORGP         -            4.6e-33  118.8   9.1   1.3e-23   87.7   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  Raucaffricine-O-beta-D-glucosidase
+3u5y_B               -          F2NAZ1_CORGP         -            4.6e-33  118.8   9.1   1.3e-23   87.7   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  Raucaffricine-O-beta-D-glucosidase
+4ek7_A               -          F2NAZ1_CORGP         -            4.6e-33  118.8   9.1   1.3e-23   87.7   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  Raucaffricine-O-beta-D-glucosidase
+4ek7_B               -          F2NAZ1_CORGP         -            4.6e-33  118.8   9.1   1.3e-23   87.7   0.2   3.2   2   2   1   3   3   3   2 mol:protein length:513  Raucaffricine-O-beta-D-glucosidase
+1myr_A               -          F2NAZ1_CORGP         -            1.3e-25   94.2   3.3   1.3e-18   71.1   0.1   2.7   2   1   1   3   3   2   2 mol:protein length:501  MYROSINASE
+4r27_A               -          F2NAZ1_CORGP         -            2.8e-25   93.2   5.3   1.5e-21   80.9   2.6   3.5   1   1   1   2   2   2   1 mol:protein length:434  Glycoside hydrolase
+4r27_B               -          F2NAZ1_CORGP         -            2.8e-25   93.2   5.3   1.5e-21   80.9   2.6   3.5   1   1   1   2   2   2   1 mol:protein length:434  Glycoside hydrolase
+1e4m_M               -          F2NAZ1_CORGP         -            5.6e-25   92.2   4.6   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:501  MYROSINASE MA1
+1e6q_M               -          F2NAZ1_CORGP         -            5.6e-25   92.2   4.6   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:501  MYROSINASE MA1
+1e6s_M               -          F2NAZ1_CORGP         -            5.6e-25   92.2   4.6   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:501  MYROSINASE MA1
+1e6x_M               -          F2NAZ1_CORGP         -            5.6e-25   92.2   4.6   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:501  MYROSINASE MA1
+1e70_M               -          F2NAZ1_CORGP         -            5.6e-25   92.2   4.6   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:501  MYROSINASE MA1
+1e71_M               -          F2NAZ1_CORGP         -            5.6e-25   92.2   4.6   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:501  MYROSINASE MA1
+1e72_M               -          F2NAZ1_CORGP         -            5.6e-25   92.2   4.6   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:501  MYROSINASE MA1
+1e73_M               -          F2NAZ1_CORGP         -            5.6e-25   92.2   4.6   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:501  MYROSINASE MA1
+1w9b_M               -          F2NAZ1_CORGP         -            5.6e-25   92.2   4.6   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:501  GLYCOSIDASE
+1w9d_M               -          F2NAZ1_CORGP         -            5.6e-25   92.2   4.6   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:501  GLYCOSIDASE
+2wxd_M               -          F2NAZ1_CORGP         -            5.6e-25   92.2   4.6   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:501  MYROSINASE
+1dwa_M               -          F2NAZ1_CORGP         -            6.4e-25   92.0   4.5   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:499  MYROSINASE MA1
+1dwf_M               -          F2NAZ1_CORGP         -            6.4e-25   92.0   4.5   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:499  MYROSINASE MA1
+1dwg_M               -          F2NAZ1_CORGP         -            6.4e-25   92.0   4.5   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:499  MYROSINASE MA1
+1dwh_M               -          F2NAZ1_CORGP         -            6.4e-25   92.0   4.5   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:499  MYROSINASE MA1
+1dwi_M               -          F2NAZ1_CORGP         -            6.4e-25   92.0   4.5   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:499  MYROSINASE MA1
+1dwj_M               -          F2NAZ1_CORGP         -            6.4e-25   92.0   4.5   2.3e-18   70.4   0.1   2.8   2   1   1   3   3   2   2 mol:protein length:499  MYROSINASE MA1
+1vff_A               -          F2NAZ1_CORGP         -            1.2e-22   84.4   4.1   1.7e-14   57.6   0.3   3.0   3   0   0   3   3   3   2 mol:protein length:423  beta-glucosidase
+3wdp_P               -          F2NAZ1_CORGP         -            1.4e-08   38.1   1.3   0.00092   22.2   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:473  Beta-glucosidase
+3wdp_Q               -          F2NAZ1_CORGP         -            1.4e-08   38.1   1.3   0.00092   22.2   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:473  Beta-glucosidase
+3wdp_R               -          F2NAZ1_CORGP         -            1.4e-08   38.1   1.3   0.00092   22.2   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:473  Beta-glucosidase
+3wdp_S               -          F2NAZ1_CORGP         -            1.4e-08   38.1   1.3   0.00092   22.2   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:473  Beta-glucosidase
+3wq8_A               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3wq8_B               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3wq8_C               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3wq8_D               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3wq8_E               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3wq8_F               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3wq8_G               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3wq8_H               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3wq8_I               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3wq8_J               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3wq8_K               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3wq8_L               -          F2NAZ1_CORGP         -            1.5e-08   37.9   1.5     0.001   22.0   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:450  Beta-glucosidase
+3apg_A               -          F2NAZ1_CORGP         -            2.1e-08   37.5   1.1   0.00092   22.2   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:473  Beta-glucosidase
+3apg_B               -          F2NAZ1_CORGP         -            2.1e-08   37.5   1.1   0.00092   22.2   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:473  Beta-glucosidase
+3apg_C               -          F2NAZ1_CORGP         -            2.1e-08   37.5   1.1   0.00092   22.2   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:473  Beta-glucosidase
+3apg_D               -          F2NAZ1_CORGP         -            2.1e-08   37.5   1.1   0.00092   22.2   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:473  Beta-glucosidase
+1qvb_A               -          F2NAZ1_CORGP         -            1.1e-06   31.8   2.8    0.0011   21.9   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:481  BETA-GLYCOSIDASE
+1qvb_B               -          F2NAZ1_CORGP         -            1.1e-06   31.8   2.8    0.0011   21.9   0.1   3.1   2   1   1   3   3   3   1 mol:protein length:481  BETA-GLYCOSIDASE
+4ha3_A               -          F2NAZ1_CORGP         -            2.2e-06   30.8   3.5   6.3e-05   26.0   0.6   2.7   2   1   0   3   3   2   1 mol:protein length:489  Beta-galactosidase
+4ha4_A               -          F2NAZ1_CORGP         -            2.2e-06   30.8   3.5   6.3e-05   26.0   0.6   2.7   2   1   0   3   3   2   1 mol:protein length:489  Beta-galactosidase
+4eam_A               -          F2NAZ1_CORGP         -              7e-05   25.9   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  Beta-galactosidase
+4eam_B               -          F2NAZ1_CORGP         -              7e-05   25.9   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  Beta-galactosidase
+4ean_A               -          F2NAZ1_CORGP         -              7e-05   25.9   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  Beta-galactosidase
+4ean_B               -          F2NAZ1_CORGP         -              7e-05   25.9   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  Beta-galactosidase
+5ixe_A               -          F2NAZ1_CORGP         -              7e-05   25.9   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  Beta-galactosidase
+5ixe_B               -          F2NAZ1_CORGP         -              7e-05   25.9   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  Beta-galactosidase
+1uwq_A               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uwq_B               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uwr_A               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uwr_B               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uws_A               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uws_B               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uwt_A               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uwt_B               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uwu_A               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uwu_B               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+2ceq_A               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+2ceq_B               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+2cer_A               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GLUCOSIDASE A
+2cer_B               -          F2NAZ1_CORGP         -            7.7e-05   25.7   8.8     0.055   16.3   2.1   3.1   3   0   0   3   3   3   1 mol:protein length:489  BETA-GLUCOSIDASE A
+5i3d_A               -          F2NAZ1_CORGP         -            0.00092   22.2   9.2      0.63   12.8   2.4   3.1   3   0   0   3   3   3   1 mol:protein length:489  Beta-galactosidase
+5i3d_B               -          F2NAZ1_CORGP         -            0.00092   22.2   9.2      0.63   12.8   2.4   3.1   3   0   0   3   3   3   1 mol:protein length:489  Beta-galactosidase
+5i3d_C               -          F2NAZ1_CORGP         -            0.00092   22.2   9.2      0.63   12.8   2.4   3.1   3   0   0   3   3   3   1 mol:protein length:489  Beta-galactosidase
+5i3d_D               -          F2NAZ1_CORGP         -            0.00092   22.2   9.2      0.63   12.8   2.4   3.1   3   0   0   3   3   3   1 mol:protein length:489  Beta-galactosidase
+1gow_A               -          F2NAZ1_CORGP         -             0.0039   20.1   8.1     0.055   16.3   2.1   3.0   3   0   0   3   3   3   1 mol:protein length:489  BETA-GLYCOSIDASE
+1gow_B               -          F2NAZ1_CORGP         -             0.0039   20.1   8.1     0.055   16.3   2.1   3.0   3   0   0   3   3   3   1 mol:protein length:489  BETA-GLYCOSIDASE
+1uwi_A               -          F2NAZ1_CORGP         -              0.006   19.5   8.5     0.064   16.1   2.2   3.0   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uwi_B               -          F2NAZ1_CORGP         -              0.006   19.5   8.5     0.064   16.1   2.2   3.0   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uwi_C               -          F2NAZ1_CORGP         -              0.006   19.5   8.5     0.064   16.1   2.2   3.0   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+1uwi_D               -          F2NAZ1_CORGP         -              0.006   19.5   8.5     0.064   16.1   2.2   3.0   3   0   0   3   3   3   1 mol:protein length:489  BETA-GALACTOSIDASE
+4im4_A               -          F2NAZ1_CORGP         -               0.81   12.5   0.0       3.6   10.3   0.0   1.8   2   0   0   2   2   2   0 mol:protein length:336  Endoglucanase E
+4im4_B               -          F2NAZ1_CORGP         -               0.81   12.5   0.0       3.6   10.3   0.0   1.8   2   0   0   2   2   2   0 mol:protein length:336  Endoglucanase E
+4im4_C               -          F2NAZ1_CORGP         -               0.81   12.5   0.0       3.6   10.3   0.0   1.8   2   0   0   2   2   2   0 mol:protein length:336  Endoglucanase E
+4im4_D               -          F2NAZ1_CORGP         -               0.81   12.5   0.0       3.6   10.3   0.0   1.8   2   0   0   2   2   2   0 mol:protein length:336  Endoglucanase E
+4im4_E               -          F2NAZ1_CORGP         -               0.81   12.5   0.0       3.6   10.3   0.0   1.8   2   0   0   2   2   2   0 mol:protein length:336  Endoglucanase E
+4im4_F               -          F2NAZ1_CORGP         -               0.81   12.5   0.0       3.6   10.3   0.0   1.8   2   0   0   2   2   2   0 mol:protein length:336  Endoglucanase E
+3zhq_A               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhq_B               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhq_C               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhq_D               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhr_A               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhr_B               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhr_C               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhr_D               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+2xt9_A               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2xta_A               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2xta_B               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2xta_C               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2xta_D               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2y0p_A               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2y0p_B               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2y0p_C               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2y0p_D               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2yic_A               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2yic_B               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2yic_C               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2yic_D               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2yid_A               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2yid_B               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2yid_C               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+2yid_D               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  2-OXOGLUTARATE DECARBOXYLASE
+3zhs_A               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhs_B               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhs_C               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhs_D               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zht_A               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zht_B               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zht_C               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zht_D               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhu_A               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhu_B               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhu_C               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhu_D               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhv_A               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhv_B               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhv_C               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+3zhv_D               -          F2NAZ1_CORGP         -                1.4   11.7   0.0       2.3   11.0   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:868  MULTIFUNCTIONAL 2-OXOGLUTARATE METABOLISM ENZYME
+2try_A               -          F2NAZ1_CORGP         -                1.7   11.4   0.1       1.9   11.2   0.1   1.0   1   0   0   1   1   1   0 mol:protein length:127  TRANSTHYRETIN
+2try_B               -          F2NAZ1_CORGP         -                1.7   11.4   0.1       1.9   11.2   0.1   1.0   1   0   0   1   1   1   0 mol:protein length:127  TRANSTHYRETIN
+2xt6_A               -          F2NAZ1_CORGP         -                1.9   11.2   0.0       3.2   10.5   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:1113  2-OXOGLUTARATE DECARBOXYLASE
+2xt6_B               -          F2NAZ1_CORGP         -                1.9   11.2   0.0       3.2   10.5   0.0   1.2   1   0   0   1   1   1   0 mol:protein length:1113  2-OXOGLUTARATE DECARBOXYLASE
+#
+# Program:         phmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      target.fasta
+# Target file:     /share/work/alex/local_pdb/sequences/pdb_seqres.txt
+# Option settings: phmmer -A aln.fasta --tblout table.out --noali target.fasta /share/work/alex/local_pdb/sequences/pdb_seqres.txt 
+# Current dir:     /share/work/alex/bglb_family/pipeline/output_files/2000
+# Date:            Thu Jun 29 00:15:25 2017
+# [ok]

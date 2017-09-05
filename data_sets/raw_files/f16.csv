@@ -1,0 +1,48 @@
+,"Researcher (e.g., ""Alex"")",Box number,Row letter,Column number,"Mutant appears on gel 0=no, 1=yes)",Number of the gel containing this mutant,Protein yield as assessed by A280 (mg/mL),Measured kcat (min^-1),"Standard error (1 std. dev.), kcat (min^-1)",Measured KM (mM),"Standard error (1 std. dev.), KM (mM)","Measured kcat/km (M^-1min-1) (""<10"" for mutants with activity below LOD, linear fit, or kcat/(1e-3*KM)","Standard error (1 std. dev.), kcat/KM (std. err. for ranges such as <10 is NA, std. err. for a quotient Q=a/x can be calculated as abs(Q)*sqrt((a_err/a)^2+(x_err/x)^2))",Measured Tm (C),"Standard error (1 std. dev.), Tm (C)",Data for this mutant is complete
+mutant_name,researcher,box,row,col,expression,gel_number,protein_yield,kcat,kcat_std_err,km,km_std_err,kcatkm,kcatkm_std_err,tm,tm_std_err,data_complete
+E164D,Howie/Mustafa,2,G,4,,,3.72,0.5,11.7,44,25.3,,,,,0
+L171D,Howie/Mustafa/Kersten,2,G,5,,,0.36,8.5,3.2,2.9,13.7,,,,,0
+N163S,HK,2,C,2,1,1,0.49,12.6,4.3,23.7,11.3,,,,,0
+Q313E,HK,3,C,8,1,2,0.1,25.7,5.5,10,8,,,,,0
+I244V,Howie/Mustafa/Kersten,3,D,1,,,0.471,32.4,2.4,1.3,11.4,,,,,0
+N220D,Howie/Mustafa - ,3,D,7,,,0.241,37.4,3.8,3.8,15.5,,,,,0
+N293S,Daniel,3,B,3,1,,0.3535,39.8,3.2,9.1,11,,,,,0
+N220S,HK,3,B,1,1,2,0.21,40.8,18.3,45.2,25.1,,,,,0
+C167S,Howie/Mustafa,3,C,9,,,2.7,97.9,19.9,326.2,24.2,,,,,0
+I244M,Howie/Mustafa/Kersten,3,C,4,1,,0.232,355,5.5,4.9,12.9,,,,,1
+A227W,Howie/Mustafa,2,I,3,,,0.45,381.6,5.7,17,16.4,,,,,0
+E388C,Howie/Mustafa,3,A,7,,,0.32,483.3,4.5,10.5,14.9,,,,,0
+G153A,HK,2,H,4,1,1,0.86,676.5,2.2,5.2,8.3,,,,,0
+X123Y,Example,1,Z,123,1,123,1.26,842.32,4.19,4.76,0.81,176957.98,5632.22,40.1,2,1
+L108N,HK,3,,3,1,1,0.34,867.7,2.8,8.8,9.7,,,,,0
+H379R,Amy,1,F,3,,,,,,,,,,,,0
+L272N,Amy,3,A,9,,,,,,,,,,,,0
+M261E,Amy,,,,,,,,,,,,,,,0
+Y294H,Brodie Collins,2,G,9,,,,,,,,,,,,0
+H119Q,Daniel,,,,,,,,,,,,,,,
+R76Q,Daniel,2,D,6,,,,,,,,,,,,0
+V311A,Daniel,3,D,4,,,,,,,,,,,,0
+V311D,Daniel,3,B,5,,,,,,,,,,,,0
+W120N,Daniel,,,,,,,,,,,,,,,
+W399H,Daniel,3,B,4,,,,,,,,,,,,0
+W409A,Daniel,1,D,8,,,,,,,,,,,,0
+Y166K,Daniel,,,,,,,,,,,,,,,
+Y294H,Daniel,2,D,4,,,,,,,,,,,,0
+L171E,David,2,H,3,,,,,,,,,,,,0
+M323T,David,3,B,2,,,,,,,,,,,,0
+N163S,David,2,I,1,,,,,,,,,,,,0
+N220D,David,3,A,6,,,,,,,,,,,,0
+N220E,David,2,H,9,,,,,,,,,,,,0
+N220A,David,1,C,2,,,,,,,,,,,,0
+N220Y,David,2,C,8,,,,,,,,,,,,0
+W409E,HK,2,B,6,0,2,0.13,,,,,,,,,0
+F248K (empty) ,Howie/Mustafa,3,A,4,,,0.23,,,,,,,,,0
+F405A,Howie/Mustafa,1,C,7,,,,,,,,,,,,0
+H315R(out) ,Howie/Mustafa,2,H,5,,,,,,,,,,,,0
+F415D (empty) ,Howie/Mustafa - ,2,H,7,,,,,,,,,,,,0
+V147S,Kyle/Jeffrey,1,E,8,,,,,,,,,,,,0
+W325E,Kyle/Jeffrey,2,G,,,,,,,,,,,,,0
+Y166E,Kyle/Jeffrey,2,H,2,,,,,,,,,,,,0
+V320Q,Morgan C,2,G,7,,,,,,,,,,,,0
+W325K,Morgan C,3,B,9,,,,,,,,,,,,0
+Y166F,Morgan C,3,C,1,,,,,,,,,,,,0

@@ -1,0 +1,6 @@
+#-extra_res_fa pnpg.params 
+-ignore_unrecognized_res 1
+-s input_pose.pdb 
+-parser
+  -protocol protocol.xml 
+-no_output 

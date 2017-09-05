@@ -1,0 +1,11 @@
+<ROSETTASCRIPTS>
+<SCOREFXNS>
+  <ScoreFunction name="sf" />
+</SCOREFXNS>
+<MOVERS>
+  <ContactMap name="contact"/>
+</MOVERS>
+<PROTOCOLS>
+    <Add mover="contact" /> 
+</PROTOCOLS>
+</ROSETTASCRIPTS>
